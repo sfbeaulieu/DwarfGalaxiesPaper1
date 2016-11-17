@@ -1,0 +1,455 @@
+V2: edited on 23.May.2014 after skyping with Steph
+
+
+In that list, at least 15 galaxies were in two groups. 
+Group assignation proposal (-->):
+
+NGC 300 :  Sculptor et LG-M31-MW --> Sculptor
+DDO 99 : CanVen et LG-M31-MW --> CanVen
+NGC 4163 : CanVen et LG-M31-MW --> CanVen
+
+NGC 3738 : CanVen et M81 --> Code de Steph pour décider
+                             Still undecided by 30.May
+
+DDO 125 (UGC 7577) : CanVen et LG-M31-MW --> CanVen
+DDO 113 (UGCA276) : CanVen et LG-M31-MW --> CanVen
+
+ESO294-G010 : Sculptor et LG-M31-MW --> Sculptor
+NGC 55 : Sculptor et LG-M31-MW --> Sculptor
+
+ESO407-G018 (UKS2323-326) : Sculptor et LG-M31-MW --> Code de Steph says Sculptor 
+
+ESO410-G005 : Sculptor et LG-M31-MW --> Sculptor? Code de Steph says Sculptor
+
+NGC3741 : M81 et CVnI --> Code de Steph says CVnI 
+UGC6541 : M81 et CVnI --> Code de Steph says CVnI
+UGC8508 : M81, CVnI (RPowell), et LG (McConnachie) --> Code de Steph says CVnI 
+DDO190 : M81, CVnI (RPowell), et LG (McConnachie) --> Code de Steph says CVnI 
+KK230 : M81 et CVnI --> Code de Steph says CVnI 
+
+IC5152: McConnacie in LG but Kar2003AA404_93 list it as nearby Sculptor --> Code de Steph says LG 
+
+Les types que j'utilise pour former mes cubes et graphiques sont:
+Sp pour toutes les spirales
+S0
+Ir 
+dI 
+dE 
+dSph 
+Ot pour les galaxies qui n'ont pas de type assigné
+Tr pour les transitions
+
+Pe pour les périphériques mais ce type va disparaitre pour donner le vrai type de la galaxie
+ 
+Si tu vois I0 (Ir), Pec (Ir), IBm (Ir), IB (Ir), BC (Ir), Sp=SA, SB, SC, Sa, Sb, Sc. il faut 
+reclasser ces types en utilisant la liste plus haut.
+
+Faire une liste des Ot et Pec, envoyer à Steph.
+
+Pour les tables, garder les types de NED et de Steph, pour les cubes, merger les types,
+genre IB, I0 etc.. dans Ir.
+
+Faire un test d'un cube avec couleurs et formes (triangle, cercle, carré) pour voir comment
+ça sort.
+
+========================================================================
+M81-group
+Name RA-J2000.0 Dec-J2000.0 SGL SGB Distance(Mpc) Type Reference 
+
+KKH34 05h59m40.40s +73d25m40.0s 22.539249 -0.406794 4.61 dI ref-5
+KKH37 06h47m45.80s +80d07m26.0s 26.137846 5.837585 3.26 dI ref-1
+NGC2366 07h28m54.66s +69d12m56.8s 29.458545 -4.860815 3.27 dI ref-2
+DDO44 07h34m11.50s +66d52m47.0s 30.30982 -7.09317 3.10 dE ref-1 
+NGC2403 07h36m51.40s +65d36m09.2s 30.796845 -8.305695 3.16 Sp ref-2
+HolmbergII 08h19m04.98s +70d43m12.1s 33.256966 -2.357887 3.42 dI ref-2
+KDG52 08h23m55.10s +71d01m56.0s 33.51657 -1.92547 3.40 Tr ref-2
+DDO53 08h34m07.20s +66d10m54.0s 36.248834 -6.043318 3.66 dI ref-2
+UGC4483 08h37m03.00s +69d46m31.0s 35.021401 -2.653403 3.41 dI ref-1
+UGC4945(KDG54) 09h22m25.20s +75d45m57.0s 34.953400 4.188032 6.7 Im ref-9
+UGC4998 09h25m10.99s +68d22m58.9s 39.428482 -1.689885 8.24 Im ref-10
+d0926+70 09h26m27.90s +70d30m24.0s 38.268885 0.092860 3.4 dI ref-11
+d0934+70 09h34m03.70s +70d12m57.0s 38.953340 0.246052 3.0 dI ref-11
+d0939+71 09h39m15.90s +71d18m42.0s 38.604235 1.369678 3.7 dI ref-11
+HolmbergI 09h40m35.107s +71d10m46.40s 38.770123 1.334915 3.98 dI ref-2
+d0944+69 09h44m22.50s +69d12m40.0s 40.280961 0.032849 3.8 dI ref-11
+d0944+71 09h44m34.40s +71d28m57.0s 38.819778 1.772139 3.4 dI ref-11
+F08D1 09h44m47.10s +67d26m19.0s 41.46031 -1.29099 3.78 dE ref-2 
+F06D1(FM1) 09h45m10.0s +68d45m54s 40.62471 -0.26022 3.53 dE ref-1 
+NGC2976 09h47m15.46s +67d54m59.0s 41.325734 -0.775931 3.56 dE ref-1 
+F12D1(KK77) 09h50m10.5s +67d30m24s 41.80428 -0.89994 3.55 dE ref-1 
+BK03N 09h53m48.5s +68d58m08s 41.07174 0.40943 3.86 Tr ref-1
+d0955+70 09h55m13.60s +70d24m29.0s 40.184184 1.549148 3.4 dI ref-11
+NGC3031(M81) 09h55m33.1730s +69d03m55.061s 41.1206866 0.5862901 3.56 Sp ref-1
+NGC3034(M82) 09h55m52.725s +69d40m45.78s 40.722287 1.054520 3.52 Sp ref-2
+KDG61 09h57m03.45s +68d35m30.3s 41.54389 0.33409 3.58 dE ref-3 
+HolmbergIX 09h57m32.00s +69d02m45.0s 41.26293 0.69340 3.61 dI ref-1
+A0952+69 09h57m32.62s +69d17m00.3s 41.10008 0.86639 3.78 dI ref-1
+d0958+66 09h58m49.06s +66d50m53.2s 42.866729 -0.814080 3.8 BC ref-11
+d0959+68 09h59m33.10s +68d39m25.0s 41.663292 0.538153 4.2 dI ref-11
+KKH57 10h00m15.404s +63d11m01.36s 45.522944 -3.345034 3.91 dE ref-4
+NGC3077 10h03m19.07s +68d44m02.1s 41.853913 0.832456 3.7 dI ref-2
+TheGarland 10h03m42.0s +68d41m36s 41.90713 0.82817 3.82 dI ref-6
+BK05N 10h04m41.397s +68d15m22.87s 42.280481 0.583568 3.65 dE ref-2 
+DDO71 10h05m06.40s +66d33m32.0s 43.512918 -0.584397 3.53 dE ref-1 
+UGC5423 10h05m30.60s +70d21m52.0s 40.833869 2.119110 8.71 dI ref-2
+d1006+67 10h06m46.20s +67d12m04.0s 43.170010 -0.017366 3.6 dI ref-11
+UGC5442(KDG64) 10h07m01.90s +67d49m39.0s 42.739583 0.438404 3.7 dE ref-3 
+d1012+64 10h12m48.015s +64d06m28.43s 45.836478 -1.704015 3.7 BC ref-11
+d1014+68 10h14m55.80s +68d45m27.0s 42.565749 1.607938 3.8 dI ref-11
+d1015+69 10h15m06.90s +69d02m15.0s 42.370325 1.809235 3.9 dI ref-11
+HS117 10h21m25.20s +71d06m51.0s 41.17488 3.59095 3.87 dE ref-2 
+DDO78 10h26m28.00s +67d39m35.0s 44.09726 1.69154 3.36 dE ref-1 
+IC2574 10h28m23.48s +68d24m43.7s 43.632134 2.309952 3.79 Sp ref-1
+d1028+70 10h28m39.70s +70d14m01.0s 42.236341 3.482613 3.8 BC ref-11
+DDO82 10h30m35.030s +70d37m07.20s 42.038130 3.850115 3.98 dI ref-2
+BK06N 10h34m29.00s +66d00m30.0s 45.87758 1.26669 3.31 dE ref-2
+d1041+70 10h41m16.80s +70d09m03.0s 42.958375 4.276574 3.7 dI ref-11
+DDO87 10h49m36.50s +65d31m50.0s 47.182407 2.233470 7.44 dI ref-7
+KDG73 10h52m57.07s +69d32m57.8s 44.03072 4.75490 4.03 Tr ref-1 
+UGC6456 11h27m59.90s +78d59m39.0s 36.871514 11.399971 4.45 dI ref-2
+NGC3738 11h35m48.790s +54d31m26.00s 59.565104 1.789758 4.9 Ir ref-8 
+UGC7242 12h14m08.40s +66d05m41.0s 50.359920 10.271771 5.42 dI ref-2
+NGC4236 12h16m42.12s +69d27m45.3s 47.113228 11.381826 4.92 SB ref-2 
+NGC4605 12h39m59.38s +61d36m33.1s 55.468863 12.016654 5.7 SB ref-2
+DDO165 13h06m24.85s +67d42m25.0s 49.61270 15.58494 4.81 dI ref-2
+NGC5204 13h29m36.51s +58d25m07.4s 59.401631 17.845855 4.65 SA ref-8 
+
+Adding a few extra galaxies from 
+Karachentsev, I.D., Kaisina, E.I., Makarov, D.I. 2014, AJ, 147, 13
+but they are all listed for other groups (except for NGC6789)(see the list at the beginning of this document)
+
+UGC6541 11h33m28.90s +49d14m14.0s 64.192052 -0.793707 3.98 Ir TRGB ref-12
+NGC3741 11h36m06.18s +45d17m01.1s 67.959171 -2.076915 3.03 Ir TRGB ref-12
+UGC8508 13h30m44.40s +54d54m36.0s 63.091464 +17.905722 2.69 Ir TRGB ref-12
+DDO190 14h24m43.40s +44d31m32.8s 74.067695 +26.851844 2.74 Ir TRGB ref-12
+KK230 14h07m10.52s +35d03m37.3s 84.555838 +23.549799 2.14 dI TRGB ref-12
+NGC6789 19h16m42.16s +63d58m17.3s 23.272497 +41.592525 3.63 Ir TRGB ref-12
+
+References
+ref-1 Dalcanton, J.J., Williams, B.F., Seth, A.C. et al. 2009, ApJSS, 183, 67
+ref-2 Jacobs, B.A., Rizzi, L., Tully, B. et al. 2009, AJ, 138, 332
+ref-3 Makarova, L. et al. 2010, MNRAS, 406, 1152
+ref-4 Karachentsev, I.D., Sharina, M.E. et al. 2001, A&A, 375, 359
+ref-5 Karachentsev, I.D., Makarov, D.I., et al. 2003, A&A, 398, 479
+ref-6 Karachentsev, I.D., Dolphin, A.E., et al. 2002, A&A, 383, 125
+ref-7 Sharina, M.E., Karachentsev, I.D. & Tikhonov, N.A. 1999, Astr Let, 25, 380
+ref-8 Karachentsev, I.D., Makarov, D.I., et al. 2003, A&A, 398, 467
+ref-9 Tikhonov, N.A. & Karachentsev, I.D. 1993, A&A, 275, 39
+ref-10 Alonso-Garcia, J., Mateo, M., & Aparicio, A. 2006, PASP, 118, no. 842, 580
+ref-11 Chiboucas, K., Jacobs, B.A., Tully, R.B., & Karachentsev, I.D. 2013, AJ, 146, 126
+ref-12 Karachentsev, I.D., Kaisina, E.I., Makarov, D.I. 2014, AJ, 147, 13
+
+====================================================================
+LG-M31-MW-group
+Note: All distances come from McConnachie2012AJ144_4
+
+Note lors du formatage de la table:
+À moins d'avoir des commmentaires autres que la référence, je retirerais
+la colonne "Comment" et je rajouterais seulement un indice de commentaire 
+au column label "Distance" et la référence en bas de la table avec cet indice.
+
+LG-M31-MW-group  (Careful, here, distance is in kpc for now, will change to Mpc)
+Name RA-J2000.0 Dec-J2000.0 SGL SGB Distance(kpc) Type Comments
+
+MW sub-group
+SMC              00h52m44s -72d49.7m 224.2314 -14.8250 64 dIrr
+Sculptor         01h00m09.35s -33d42m32.5s 263.98105 -9.68418 86 dSph
+SegueII          02h19m16.0s +20d10m31s 322.24529 -13.37696 35 dSph
+Fornax           02h39m59.33s -34d26m57.1s 265.37024 -30.27647 147 dSph
+LMC              05h23m34s -69d45.4m 215.7950 -34.1219 51 Irr
+Carina           06h41m36.69s -50d57m58.3s 210.09745 -54.63996 105 dSph
+CanisMajor       07h12m36s -27d40m 188.3800 -77.3700 7 Ot
+UrsaMajorII      08h51m30.0s +63d07m48s 39.28250 -7.9651 32 dSph
+Segue(I)         10h07m04.0s +16d04m55s 84.77368 -32.94122 23 dSph
+LeoI             10h08m28.10s +12d18m23.0s 88.89990 -34.55438 254 dSph
+SextansI         10h13m03s -01d36.9m 105.3888 -39.2323 86 dSph
+UrsaMajorI       10h34m52.8s +51d55m12s 57.05967 -7.33754 97 dSph
+Willman1         10h49m21s +51d03.0m 59.0972 -6.0204 38 dSph
+LeoII            11h13m28.8s +22d09m06s 87.10340 -16.26757 233 dSph
+LeoV             11h31m09.6s +02d13m12s 108.27293 -19.49184 178 dSph
+LeoIV            11h32m57.0s -00d32m00s 111.20807 -19.87037 154 dSph
+ComaBerenices    12h26m59.0s +23d54m15s 91.59837 0.13349 44 dSph
+CanesVenaticiII  12h57m10.0s +34d19m15s 83.23856 9.21359 160 dSph
+CanesVenaticiI   13h28m03.5s +33d33m21s 85.23871 15.36190 218 dSph
+BootesIII        13h57m14s +26d48m 93.211 20.632 47 dSph
+BootesII         13h58m00.0s +12d51m00s 107.8179 18.3552 42 dSph
+BootesI          14h00m06.0s +14d30m00s 106.22853 19.20284 66 dSph
+UrsaMinor        15h09m08.5s +67d13m21s 47.7053 27.0976 76 dSph
+Hercules         16h31m02.0s +12d47m30s 116.49833 55.03050 132 dSph
+Draco            17h20m12.4s +57d54m55s 43.78880 44.23442 76 dSph
+MilkyWay         17h45m40.0383s -29d00m28.069s 185.8364451 42.2482539 0 Sb
+SagittariusdSph  18h55m19s -30d32.7m 206.5422 +43.7457 26 dSph
+PiscesII         22h58m31.00s +05d57m09.0s 294.39129 29.60967 182 dSph
+
+M31 sub-group 
+AndromedaXX      00h07m30.7s +35d07m56s 328.87619 18.53164 802 dSph
+AndromedaXXVI    00h23m45.6s +47d54m58s 342.54129 16.77778 762 dSph
+AndromedaXXV     00h30m08.9s +46d51m07s 341.55230 15.59475 813 dSph
+NGC147           00h33m12.12s +48d30m31.5s 343.320673 15.273100 676 dE
+AndromedaIII     00h35m33.8s +36d29m52s 331.12592 13.09977 748 dSph
+AndromedaXVII    00h37m07.0s +44d19m20s 339.12103 14.05811 794 dSph
+AndromedaXXVII   00h37m27.0s +45d23m13s 340.21621 14.15275 828 dSph
+NGC185           00h38m57.97s +48d20m14.6s 343.267827 14.302916 617 dE
+NGC205           00h40m22.08s +41d41m07.1s 336.536771 13.060419 824 dE
+Andromeda        00h42m44.3503s +41d16m08.634s 336.1933604 12.5521171 783 Sb
+M32              00h42m41.832s +40d51m55.03s 335.7846672 12.4895071 805 cE
+AndromedaI       00h45m39.80s +38d02m28.0s 333.054959 11.406926 745 dSph
+AndromedaXI      00h46m20.0s +33d48m05s 328.85251 10.42351 759 dSph
+AndromedaXII     00h47m27.0s +34d22m29s 329.47157 10.31695 871 dSph
+AndromedaXIV     00h51m35.0s +29d41m49s 325.04179 8.43335 735 dSph
+AndromedaXIII    00h51m51.0s +33d00m16s 328.31451 9.12753 912 dSph
+AndromedaIX      00h52m53.0s +43d11m45s 338.4811 11.0613 766 dSph
+AndromedaX       01h06m33.70s +44d48m15.8s 340.60639 8.99811 701 dSph
+AndromedaV       01h10m17.10s +47d37m41.0s 343.53861 9.02331 773 dSph
+AndromedaXV      01h14m18.70s +38d07m03.0s 334.43390 5.93729 631 dSph
+AndromedaII      01h16m29.8s +33d25m09s 330.01312 4.23932 652 dSph
+AndromedaXXIV    01h18m30.0s +46d21m58s 342.65202 7.35476 600 dSph
+AndromedaXIX     00h19m32.1s +35d02m37s 329.11292 16.08094 933 dSph
+IC10             00h20m17.34s +59d18m13.6s 354.428655 17.878129 794 dIrr
+AndromedaXVI     00h59m29.80s +32d22m36.0s 328.07416 7.41702 525 dSph
+LGS3             01h03m55.00s +21d53m06.0s 318.12827 3.79801 769 Tr
+AndromedaXXII    01h27m40.0s +28d05m25s 325.60713 0.39573 794 dSph
+AndromedaXXIII   01h29m21.8s +38d43m08s 335.84941 3.27985 769 dSph
+Triangulum       01h33m50.89s +30d39m36.8s 328.4675313 -0.0898075 809 Sc
+AndromedaVII     23h26m31.74s +50d40m32.6s 345.64844 26.05107 762 dSph
+AndromedaVI      23h51m46.30s +24d34m57.0s 317.30847 20.55775 783 dSph
+AndromedaXXI     23h54m47.7s +42d28m15s 336.47054 21.54657 859 dSph
+AndromedaXXIX    23h58m55.60s +30d45m20.0s 324.051797 19.810004 731 dSph
+
+Rest of LG and its neighbors
+WLM              00h01m58.161s -15d27m39.34s 277.807618 8.086262 933 dIrr
+AndromedaXVIII   00h02m14.5s +45d05m20s 339.32245 20.29597 1355 dSph
+NGC55            00h14m53.60s -39d11m47.9s 256.249103 -2.359412 1932 Irr
+ESO410G005       00h15m31.56s -32d10m47.8s 262.947014 -0.257743 1923 Tr
+Cetus            00h26m11.03s -11d02m39.6s 283.844512 3.823509 755 dSph
+ESO294G010       00h26m33.371s -41d51m19.08s 254.372331 -5.269945 2032 Tr
+NGC300           00h54m53.48s -37d41m03.8s 259.810273 -9.502897 2080 Sc
+IC1613           01h04m47.79s +02d07m04.0s 299.15220 -1.77843 755 dIrr
+Phoenix          01h51m06.34s -44d26m40.9s 254.28786 -20.86142 415 Tr 
+UGCA86           03h59m48.30s +67d08m18.6s 10.84738 -1.17115 2965 dIrr
+HIZSS3B          07h00m23.33s -04d12m55.1s 33.144321 -78.430768 1675 dIrr
+HIZSS3A          07h00m29.0s -04d12m00s 33.25231 -78.41289 1675 dIrr
+UGC4879          09h16m02.21s +52d50m24.3s 47.611260 -15.014041 1361 Tr
+LeoT             09h34m53.40s +17d03m05.0s 78.40126 -38.75194 417 Tr
+LeoA             09h59m26.46s +30d44m47.0s 69.91385 -25.79772 798 dIrr
+SextansB         10h00m00.10s  +05d19m56.0s 95.463102 -39.619540 1426 dIrr
+NGC3109          10h03m06.88s -26d09m34.5s 137.955006 -45.102594 1300 dIrr
+Antlia           10h04m04.10s  -27d19m51.6s 139.58321 -44.80278 1349 dIrr
+SextansA         10h11m00.80s -04d41m34.0s 109.00627 -40.66216 1432 dIrr
+DDO99            11h50m52.99s +38d52m49.0s 74.927575 -2.122017 2594 dIrr
+NGC4163          12h12m09.15s +36d10m09.1s 78.944663 0.876108 2858 dIrr
+DDO113           12h14m57.92s +36d13m07.8s 79.07976 1.42951 2951 dIrr
+IC3104           12h18m46.06s -79d43m33.8s 195.83339 -17.06472 2270 dIrr
+DDO125           12h27m40.90s +43d29m44.0s 72.848213 5.927164 2582 dIrr
+DDO155(GR8)      12h58m40.443s +14d13m03.04s 102.975733 4.668436 2178 dIrr
+UGC8508          13h30m44.40s +54d54m36.0s 63.091464 17.905722 2582 dIrr
+KKH86            13h54m33.55s +04d14m34.8s 116.33975 15.46502 2582 dIrr
+KKR3             14h07m10.52s +35d03m37.3s 84.555838 23.549799 2188 dIrr
+UGC9128(DDO187)  14h15m56.52s +23d03m19.0s 97.833162 24.351768 2291 dIrr
+DDO190           14h24m43.40s +44d31m32.8s 74.067695 26.851844 2793 dIrr
+KKR25            16h13m47.952s +54d22m16.24s 56.092643 40.370308 1905 Tr
+IC4662           17h47m08.86s -64d38m30.3s 199.188384 8.607890 2443 dIrr
+SagittariusdIrr  19h29m59.58s -17d40m51.3s 221.27259 55.51609 1067 dIrr
+NGC6822          19h44m57.74s -14d48m12.4s 229.07595 57.08799 459 dIrr
+Aquarius         20h46m51.80s -12d50m52.5s 252.07920 50.24431 1072 Tr
+IC5152           22h02m41.51s -51d17m47.2s 234.232185 11.528235 1950 dIrr
+Tucana           22h41m49.60s -64d25m10.0s 227.60830 -0.91822 887 dSph
+AndromedaXXVIII  22h32m41.20s +31d12m58.2s 324.086775 38.269722 661 dSph
+UKS2323-326      23h26m27.516s -32d23m19.51s 258.875008 9.283399 2208 dIrr
+PegasusdIrr      23h28m36.25s +14d44m34.5s 305.83317 24.30889 920 Tr 
+KKH98            23h45m34.02s +38d43m03.7s 332.35132 23.17166 2523 dIrr
+
+
+Extra galaxy (from Dalcanton and Corbin) 
+CGCG269-049(MCG9-20-131) 12h15m46.6s +52d23m14s 63.705970 +6.567524 1.6/4.9 LSB TRGB (Dalcanton WFPC2/Corbin ACS)  
+Dalcanton would mean LocalGroup, and Corbin would mean CVnI group.
+decide according to CMD
+
+================================================================================================
+CenA-group (Steph two lists merged - where does the distances come from?) 
+Name RA-J2000.0 Dec-J2000.0 SGL SGB Distance Type Comments
+
+ESO321-G014 12h13m49.62s -38d13m52.9s 152.26482 -17.62121 3.20 IBm (Dalcanton, 3.18)
+ESO381-G020 12h46m00.67s -33d50m13.0s 148.873661 -10.496330 5.45 IBm
+Cen06 13h05m02.10s -40d04m58.0s 155.896109 -8.172138 5.78 dIrr
+NGC4945 13h05m27.477s -49d28m05.57s 165.1774512 -10.2119599 3.82 SB
+NGC5068 13h18m54.81s -21d02m20.8s 138.283163 -0.211182 6.6 SB 
+HIPASSJ1321-31 13h21m08s -31d31.8m 148.4736 -2.7667 5.2 dIrr
+NGC5102 13h21m57.607s -36d37m48.88s 153.417895 -4.067426 3.4 S0
+AM1321-304 13h24m36.23s -30d58m18.5s 148.156886 -1.895116 4.60 dIm
+NGC5128 13h25m27.6152s -43d01m08.805s 159.7531927 -5.2498865 3.66 S0
+ESO324-G024 13h27m37.36s -41d28m50.4s 158.39222 -4.42053 3.73 IABm
+UGCA365(ESO444-G078) 13h36m31.11s -29d14m05.6s 147.300380 +1.091944 5.25 Im
+NGC5236 13h37m00.950s -29d51m55.50s 147.9322997 +0.9915823 4.47 SAB 
+ESO444-G084 13h37m19.99s -28d02m42.0s 146.230884 +1.643873 4.61 Im
+HIPASSJ1337-39 13h37m25.3s -39d53m48s 157.45576 -2.16557 4.9 Im
+NGC5237 13h37m39.05s -42d50m49.1s 160.266894 -3.071483 3.40 I0
+NGC5253 13h39m55.9631s -31d38m24.388s 149.8145973 +1.0064052 4.00 Im
+IC4316 13h40m18.41s -28d53m32.0s 147.245142 +1.986182 4.41 IBm
+NGC5264 13h41m36.68s -29d54m47.1s 148.303173 +1.917297 4.53 IBm
+ESO325-G011 13h45m00.50s -41d51m40.0s 159.785294 -1.462823 3.40 IBm
+ESO383-G087 13h49m17.50s -36d03m48.4s 154.635682 +1.328448 3.45 SB
+ESO384-G016 13h57m01.37s -35d19m58.7s 154.521232 +3.055893 4.53 dS0/dIm
+NGC5408 14h03m20.91s -41d22m39.7s 160.588783 +1.903785 4.81 IBm
+SGC142448-4604.8 14h28m03.70s -46d18m06.0s 166.946531 +3.835872 3.57 Im
+ESO223-G009 15h01m08.67s -48d17m25.7s 171.547535 +7.633995 6.4 IAB
+ESO274-G001 15h14m13.84s -46d48m28.6s 171.61636 +10.29240 3.05 Sd
+
+
+Possible extra galaxies for CenA group (from RPowell website)
+ESO381-G018 12h44m42.39s -35d58m00.2s 150.942130 -11.189428 5.37 Ir TRGB (Jacobs2009AJ138_332)
+ESO269-G058 13h10m32.93s -46d59m27.3s 162.92200 -8.83077 3.82 I0 TRGB (Jacobs2009AJ138_332)
+ESO269-G066 13h13m09.15s -44d53m23.8s 160.97190 -7.88401 3.77 dE TRGB (Crnojevic2011AA530_A58)
+IC4247 13h26m44.43s -30d21m44.7s 147.71224 -1.27472 4.63 S? TRGB (Crnojevic2011AA530_A59)
+NGC5206 13h33m43.98s -48d09m04.2s 165.106407 -5.376636 2.58 SB TRGB (Jacobs2009AJ138_332)
+ESO270-17 13h34m47.30s -45d32m51.0s 162.67388 -4.40834 4.4 SB TF_median (not reliable enough)
+ESO97-G013 14h13m09.950s -65d20m21.20s 183.1406848 -6.4151594 4.21 SA TF (one distance, Tully2009AJ138_323)
+PGC51659 14h28m03.70s -46d18m06.0s 166.946531 +3.835872 3.53 Ir TRGB (Jacobs2009AJ138_332)
+ESO222-G010 14h35m02.58s -49d25m14.3s 170.253995 +3.386697 5.55 no_type (z-dist)
+ESO272-G025 14h43m25.52s -44d42m18.9s 166.85245 +6.96368 5.78 Pec (z-dist)
+
+======================================================================
+Sculptor-group (Steph two lists merged - where does the distances come from?)
+Name RA-J2000.0 Dec-J2000.0 SGL SGB Distance Type Comments
+
+NGC55 00h14m53.60s -39d11m47.9s 256.249103 -2.359412 2.17 SB (Dalcanton, 2.11, 2.12,2.09, 2.08) 
+NGC59 00h15m25.13s -21d26m39.8s 273.130188 +3.155982 5.3 SA
+ESO410-G005 00h15m31.56s -32d10m47.8s 262.947014 -0.257743 1.92 dE (Dalcanton, 2.01)
+SCL-DE1(Sc22) 00h23m51.7s -24d42m18s 270.62199 +0.30699 4.19 dE TGRB (Dalcanton)
+ESO294-G010 00h26m33.371s -41d51m19.08s 254.372331 -5.269945 1.92 dS0/Im (Dalcanton, 1.94)
+NGC247 00h47m08.55s -20d45m37.4s 275.922589 -3.729785 3.65 SAB (Dalcanton, 3.50, 3.54) 
+NGC253 00h47m33.120s -25d17m17.59s 271.565460 -5.009108 3.94 SAB (Dalcanton,3.47, 3.46, 3.40) 
+ESO540-G030 00h49m20.96s -18d04m31.5s 278.654828 -3.518973 3.4 IABm  (Dalcanton, 3.33)
+ESO540-G032 00h50m24.32s -19d54m24.2s 276.950195 -4.242536 3.42 IABm  (Dalcanton, 3.54)
+NGC300 00h54m53.48s -37d41m03.8s 259.810273 -9.502897 2.15 SA 
+NGC625 01h35m04.63s -41d26m10.3s 257.266577 -17.739401 3.89 SB
+ESO407-G018 23h26m27.516s -32d23m19.51s 258.875008 +9.283399 2.2 IBm  (Dalcanton, 2.18)
+NGC7793 23h57m49.83s -32d35m27.7s 261.301213 +3.121153 3.91 SA
+
+Background to Sculptor
+NGC24 00h09m56.54s -24d57m47.3s 269.388143 +3.225675 7.39 SA TFmedian
+NGC45 00h14m03.99s -23d10m55.5s 271.379939 +2.905780 6.61 SA TRGB
+
+Possible extra galaxies for Sculptor group (from RPowell website)
+ESO293-35 00h06m51.63s -41d50m22.8s 253.251148 -1.777316 1.5 Ir (no z-dist)
+ESO349-31(SDIG) 00h08m13.36s -34d34m42.0s 260.18324 +0.40381 3.21 Ir TRGB (Jacobs2009AJ138_332 and 3 other ref)
+IC1574 (DDO226,UGCA9) 00h43m03.815s -22d14m48.76s 274.233294 -3.213593 4.9 Ir TRGB (Jacobs2009AJ138_332)
+ESO540-31(DDO006,UGCA015) 00h49m49.20s -21d00m54.0s 275.841493 -4.400150 3.42 Ir TRGB (Jacobs2009AJ138_332)
+ESO245-05 01h45m03.74s -43d35m52.9s 255.13890 -19.73894 4.55 Ir TRGB (Jacobs2009AJ138_332)
+ESO237-27(IC5152)? 22h02m41.51s -51d17m47.2s 234.232185 +11.528235 2.04 Ir TRGB (Jacobs2009AJ138_332)
+ESO471-006(UGCA442) 23h43m45.55s -31d57m24.4s 260.780727 +6.117641 4.27 SB TRGB (2003AA404_93)
+
+======================================================================
+NED coords done 
+CanesVenatici-group (Steph two lists merged - where does the distances come from?)
+Name RA-J2000.0 Dec-J2000.0 SGL SGB Distance Type Comments
+
+UGC5427 10h04m40.950s +29d21m51.50s 71.899395 -25.781036 7.11 Sdm
+UGC5672 10h28m21.07s +22d34m11.1s 81.443668 -25.271417 6.25 S
+NGC3344 10h43m31.15s +24d55m20.0s 81.168242 -21.086413 6.9 SAB
+UGC6541 11h33m28.90s +49d14m14.0s 64.192052 -0.793707 3.89 Ir 
+NGC3738 11h35m48.790s +54d31m26.00s 59.565104 +1.789758 4.9 Ir
+NGC3741 11h36m06.18s +45d17m01.1s 67.959171 -2.076915 3.03 Ir (Dalcanton, 3.24)
+J114711.81+434018.1 11h47m11.60s +43d40m18.0s 70.235582 -0.922622 4.51 dIr
+UGC6817(DDO99) 11h50m52.99s +38d52m49.0s 74.927575 -2.122017 2.64 Ir 
+J115844.09+273506.0 11h58m44.090s +27d35m06.00s 86.064928 -4.706672 6.3 Ir
+NGC4068 12h04m00.776s +52d35m17.78s 62.945803 +4.931911 4.31 Ir 
+NGC4136(UGC7134) 12h09m17.693s +29d55m39.42s 84.646447 -1.733886 7.9 (Hubble) SAB 
+KUG1207+367 12h09m56.47s +36d26m03.6s 78.548412 +0.541709 4.7 Sp
+NGC4144 12h09m58.60s +46d27m25.8s 69.071539 +3.828266 7.41 SAB 
+NGC4163(NGC4167) 12h12m09.15s +36d10m09.1s 78.944663 +0.876108  2.96 Ir (Dalcanton, 2.87)
+NGC4190 12h13m44.770s +36d38m02.50s 78.607897 +1.329450 3.5 Ir 
+UGCA276(DDO113) 12h14m57.92s +36d13m07.8s 79.07976 +1.42951 2.86 Ir 
+NGC4214 12h15m39.17s +36d19m36.8s 79.021096 +1.595164 2.94 Ir (Dalcanton, 3.04)
+*** 3.4     12 15 46.7      54 23 15 --> Has no velocity measure, not even z-distance 
+UGC7298 12h16m30.10s +52d13m39.0s 63.892535 +6.626027 4.21 Ir 
+NGC4244 12h17m29.66s +37d48m25.6s 77.729506 +2.407466 4.49 SA 
+NGC4258 12h18m57.5046s +47d18m14.303s 68.7407163 +5.5497894 7.83 SAB
+UGC7356 12h19m09.390s +47d05m27.50s 68.955141 +5.518947 7.59 dE 
+UGC7505(IC3308) 12h25m18.21s +26d42m54.4s 88.801200 +0.604336 12.8 Sdm
+KK98-144 12h25m29.15s +28d28m56.8s 87.125672 +1.168571 6.3 dIr
+NGC4395 12h25m48.862s +33d32m48.94s 82.3052157 +2.7323510 4.67 SA 
+UGCA281 12h26m15.922s +48d29m36.64s 67.942966 +7.061719 5.43 SmBCD
+UGC7559(DDO126) 12h27m05.15s +37d08m33.3s 78.934026 +4.025034 4.87 Ir
+UGC7577(DDO125) 12h27m40.90s +43d29m44.0s 72.848213 +5.927164 2.54 Ir
+UGC7584 12h28m02.83s +22d35m15.8s 92.928430 -0.020317 7.6 Sdm
+LSBCF573-01 12h28m04.810s +22d17m24.60s 93.215137 -0.100335 7.5 dI
+NGC4449 12h28m11.103s +44d05m37.07s 72.295231 +6.179265 4.21 Irr 
+UGC7599(DDO127) 12h28m28.56s +37d14m01.1s 78.925784 +4.316347 6.9 Sm 
+UGC7605 12h28m38.745s +35d43m02.93s 80.392832 +3.917945 4.43 Ir 
+NGC4460 12h28m45.56s +44d51m51.2s 71.577427 +6.488027 9.59 SB 
+NGC4631 12h42m08.01s +32d32m29.4s 84.220461 +5.741832 7.66 SB
+KK166 12h49m13.3s +35d36m43.0s 81.590844 +7.924609 4.74 dSph Kar2003AA398_467 TRGB (only one distance)
+NGC4736(M94) 12h50m53.061s +41d07m13.65s 76.239331 +9.496263 4.66 SA 
+NGC4826(M64) 12h56m43.641s +21d40m58.69s 95.606404 +6.125827 4.44 SA
+NGC5023 13h12m12.600s +44d02m28.40s 74.046987 +13.891519 6.61 Scd 
+UGC8331(DDO169) 13h15m30.31s +47d29m56.2s 70.591202 +14.932439 4.41 IAm (Jacobs2009AJ138_332)
+NGC5194(M51) 13h29m52.711s +47d11m42.62s 71.1645729 +17.3231440 8 SA
+NGC5195(M51b) 13h29m59.59s +47d15m58.1s 71.092105 +17.348239 8.02 SB
+NGC5457(M101/M102) 14h03m12.5441s +54d20m56.220s 63.5815591 +22.6127593 7.38 SAB
+NGC5474 14h05m01.61s +53d39m44.0s 64.301387 +22.932763 7.2 SA
+KK230 14h07m10.52s +35d03m37.3s 84.555838 & +23.549799  1.97 dIr (Dalcanton2009ApJSS183_67)
+NGC5585 14h19m48.20s +56d43m44.6s 60.702609 +24.665453 5.7 SAB
+
+
+CVnI (possible extra galaxies from RPowell website)
+UGC7321 12h17m34.008s +22d32m24.54s 92.243269 -2.341329 3.8 Sd TF (prob. unreliable)
+NGC4258(M106) 12h18m57.5046s +47d18m14.303s 68.7407163 +5.5497894 7.73 SBb TRGB (2009ApJ690_389) (Cepheids 6.67-8.43)
+UGC7369(IC779) 12h19m38.730s +29d52m59.52s 85.404646 +0.377644 11.6 E TRGB (2006AJ131_1361)
+UGC7698(DDO133) 12h32m54.39s +31d32m28.0s 84.658739 +3.589387 6.1 Ir BrightestStar (1998AASS128_459) 
+UGCA290 12h37m21.80s +38d44m38.0s 77.94350 +6.41165 6.7 Ir TRGB (2002ApJ567_258 et 2000ApJ545_31) 
+UGCA292(CVnDwarfA) 12h38m40.06s +32d46m00.5s 83.809900 +5.096936 3.61 Ir TRGB (Dalcanton)
+UGC7866(IC3687,DDO141) 12h42m15.10s +38d30m12.0s 78.421354 +7.274396 4.57 Ir TRGB (Jacobs2009AJ138_332) 
+NGC4789A(UGC8024) 12h54m05.25s +27d08m58.7s 90.125692 +6.896482 4.04 Ir TRGB (Jacobs2009AJ138_332)
+UGC8188(IC4182) 13h05m49.53s +37d36m17.6s 80.339005 +11.605463 4.37 Sm TRGB (Jacobs2009AJ138_332) (Cepheids 4.07-4.94)
+UGC8215 13h08m03.60s +46d49m40.9s 71.098467 +13.587151 4.57 Ir TRGB (Jacobs2009AJ138_332)
+UGC8308(DDO167) 13h13m22.830s +46d19m21.60s 71.748247 +14.420131 4.23 Ir TRGB (Jacobs2009AJ138_332)
+UGC8320(DDO168) 13h14m27.95s +45d55m08.9s 72.18739 +14.55210 4.61 Ir TRGB (Jacobs2009AJ138_332) 
+UGCA342 13h15m06.70s +42d00m05.0s 76.20724 +14.11194 6.16 Ir z-distance (unreliable?)
+NGC5204 13h29m36.51s +58d25m07.4s 59.401631 +17.845855 4.65 Sm TRGB (2003AA38_467)
+UGC8508 13h30m44.40s +54d54m36.0s 63.091464 +17.905722 2.58 Ir TRGB (Dalcanton)
+NGC5229 13h34m02.83s +47d54m55.6s 70.463713 +18.076562 5.13 SBcd BrightestStar (unreliable)
+NGC5238 13h34m42.513s +51d36m49.25s 66.581148 +18.375046 4.51 Sd TRGB (Jacobs2009AJ138_332)
+UGC8638 13h39m19.40s +24d46m32.1s 94.661903 +16.342964 4.29 Ir TRGB (Jacobs2009AJ138_332)
+UGC8651(DDO181) 13h39m53.82s +40d44m20.7s 78.085263 +18.579463 3.14 Ir (Dalcanton)
+UGC8760(DDO183) 13h50m50.60s +38d01m09.0s 81.143162 +20.467408 3.22 Ir (Dalcanton)
+UGC8833 13h54m48.67s +35d50m14.7s 83.535160 +21.089662 3.08 Ir (Dalcanton)
+UGC9128(DDO187) 14h15m56.52s +23d03m19.0s 97.833162 +24.351768 2.21 Ir (Dalcanton)
+UGC9240(DDO190) 14h24m43.40s +44d31m32.8s 74.067695 +26.851844 2.79 Ir (Dalcanton)
+
+
+
+==================================================================================================
+End of our groups lists/sample.
+==================================================================================================
+
+This following sets of galaxies do not have reliable distances, except perhaps NGC4258(M106)
+but since it is at 7.73 Mpc, it would be outside the above CVn group.
+
+CVnII (Richard Powell collection)
+
+NGC4096 12h06m01.130s +47d28m42.40s 67.882608 +3.526400 10.8 SBc TF-IR (2011AA532_104) (unreliable?)
+UGC7267 12h15m23.650s +51d20m59.60s 64.684347 +6.201307 96.4 Sd TF (unreliable, do not use)
+UGC7271 12h15m33.443s +43d26m02.82s 72.258631 +3.806338 7.5 Sc TF (unreliable, only one measure, do not use)
+UGC7320 12h17m28.548s +44d48m40.45s 71.050656 +4.557036 7.78 Sd(?dS0) z-distance (unreliable, do not use)
+NGC4242 12h17m30.177s +45d37m09.47s 70.279487 +4.806529  5.8 SBm TF (unreliable, do not use)
+NGC4248 12h17m49.847s +47d24m33.11s 68.582731 +5.398760  7.3 SBb Tully est. (unreliable, do not use)
+NGC4258(M106) 12h18m57.5046s +47d18m14.303s 68.7407163 +5.5497894 7.73 SBb TRGB (2009ApJ690_389) (Cepheids 6.67-8.43)
+NGC4288 12h20m38.110s +46d17m30.00s 69.797576 +5.526301 10.4 SBc TF (and also TF 26.10) (unreliable, do not use)
+UGC7408(DDO120) 12h21m15.009s +45d48m40.83s 70.290402 +5.488141 6.7 Ir TF (unreliable, only 1 measure, do not use)
+UGC7608(DDO129) 12h28m44.200s +43d13m26.90s 73.163672 +6.036733 7.6 Ir TF (unreliable, only 1 measure, do not use)
+UGC7639 12h29m53.40s +47d31m52.0s 69.041037 +7.388749 7.1 Ir median of brightstar+TF+SBF (unreliable, do not use)
+KK151(PGC41314) 12h30m23.570s +42d54m05.70s 73.558655 +6.240002 6.56 dIr? z-distance (unreliable, do not use) 
+NGC4485 12h30m31.13s +41d42m04.2s 74.727032 +5.937023 9.3 Ir Tully est. (unreliable, do not use)
+NGC4490 12h30m36.239s +41d38m38.03s 74.7867869 +5.9367554 7.48 SBc median of TF+Sosies (unreliable, do not use)
+UGC7678 12h32m00.170s +39d49m57.60s 76.611335 +5.700145 9.52 SB? z-distance (unreliable, do not use)
+UGC7690 12h32m26.890s +42d42m14.80s 73.851613 +6.550423 7.5 Ir TF (unreliable, only 1 measure, do not use)
+UGC7699 12h32m48.02s +37d37m18.4s 78.791219 +5.248935 17.9 SBc median (mix of TF, unreliable, do not use)
+UGC7719 12h34m00.540s +39d01m09.00s 77.503613 +5.854318 8.9 Sd TF (unreliable, only 1 measure, do not use)
+UGC7751 12h35m11.76s +41d03m39.4s 75.582805 +6.612316 8.78 Ir z-distance (unreliable, do not use)
+UGC7774 12h36m22.720s +40d00m18.70s 76.667835 +6.554864 20.25 Sc median (mix of TF, unreliable, do not use)
+UGC7827 12h39m38.93s +44d49m14.5s 72.117549 +8.342959 8.36 Ir z-distance (unreliable, do not use)
+NGC4618 12h41m32.85s  +41d09m02.8s 75.798994 +7.792775 7.3 SBd TF (unreliable, only 1 measure, do not use)
+NGC4625 12h41m52.721s +41d16m26.27s 75.693627 +7.883100 8.2 SBm TF (unreliable, only 1 measure, do not use)
+UGC7949(DDO147) 12h46m59.80s +36d28m35.0s 80.635291 +7.693713 4.2 (TF) and 10.4 (BrightStar) Ir (unreliable, do not use)
+NGC4707 12h48m22.87s +51d09m52.9s 66.159272 +11.152839 8.0 Sm TF (unreliable, only 1 measure, do not use)
