@@ -1,0 +1,26 @@
+
+ !SMC  SFR/L  MHI/L  Distance to nearest gal   
+ !IC 10  
+ ! LGS 3            	   
+ !IC 1613         
+ !Phoenix         
+ !NGC 6822         
+ !Pegasus dIrr       
+ !Leo T             
+ !WLM             
+ !Leo A         
+ !Aquarius        
+ !Sagittarius dIrr   
+ !UGC 4879           
+ !NGC 3109          
+ !Sextans B        
+ !Antlia          
+ !Sextans A      
+ !HIZSS 3(A)    
+ !HIZSS 3B         
+ !KKR 25          
+ !Leo P          
+ !IC 5152       
+ !UKS 2323-326     
+ !KKR 3           
+ !GR 8          

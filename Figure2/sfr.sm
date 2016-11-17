@@ -1,0 +1,13 @@
+sfr
+ device postfile sfrdist.ps
+ data sfrdist.txt
+ read {a 1 b 2}
+ limits 0.0 2.0 0 6.0 
+ lweight 3
+ box
+ expand 2
+ ptype 12 0
+ points a b
+ expand 1
+ ylabel logSFR
+ xlabel Distance(Mpc)

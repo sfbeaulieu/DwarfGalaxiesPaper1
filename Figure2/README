@@ -1,0 +1,20 @@
+
+Figure SFR/L versus distance
+
+
+Local Group:
+-took list of dIs& dTrans from McConnachie 2012 table that is available online at:
+https://www.astrosci.ca/users/alan/Nearby_Dwarfs_Database.html
+version last updated May 30 2013
+Distances to MW or M31 in the same paper, Lv also.
+-> orig-McConn.txt
+
+kept only the dIrr and dtrans (following Sylvie's updated table_localgroup.tex 
+-> LGdidt.txt
+Note: comprend toutes le dI dTrans meme si leur distance n'est pas exacte, eg: Leo P d=1.3 +0.9 -0.5 mpc
+Note: CanisMajor type="Other". =MW overdensity (Carraro et al 2008). Excluded from list of dI/dTrans
+Note: Triangulum= is it faint enough MB to be a dwarf? =This is M33.Abs Mag=-19.41 (RC3). -> excluded from dI/dTrans
+Note: Leo P: is a dTrans according to several papers (it has HI). -> keep it in the list.
+
+
+

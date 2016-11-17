@@ -1,0 +1,9 @@
+sfr
+ data sfrdist.txt
+ read {x 1 y 2}
+ window 2 2 1 1
+ limits 0 2.0 0 6.0
+ box     
+ connect x y
+ xlabel this is x
+ ylabel this is y

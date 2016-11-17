@@ -1,0 +1,22 @@
+sfr
+ device postfile sfrdist.ps
+ data sfrdist.txt
+ read a 1
+ read d 2
+ read s 3
+ read m 4
+ read h 5
+ read t 6
+ set b=d*3.141593/10.8
+ set a=a*b
+ set e=3.141593*(1.5*a*1000.0)**2 
+ set l= s-lg(e)
+ limits 0.0 2.0 -13 -6 
+ lweight 3
+ box
+ expand 2
+ ptype 12 0
+ points t l
+ expand 1
+ ylabel log(SFR/area) M_{\odot} yr^{-1} pc^{-2}
+ xlabel Distance to Nearest Spiral (Mpc)

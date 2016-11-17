@@ -1,0 +1,77 @@
+sfr
+ device postfile sfrdistall.ps
+ data sfrdist.txt
+ read a 1
+ read d 2
+ read s 3
+ read m 4
+ read h 5
+ read t 6
+ read r 7
+ set b=d*3.141593/10.8
+ set a=a*b
+ set e=3.141593*(1.5*a*1000.0)**2 
+ set l= s-lg(e)
+ limits 0.0 3.0 -14 -5 
+ lweight 3
+ box
+ expand 2
+ ptype 14 3
+ points t l
+ errorbar t l r 1
+ errorbar t l r 3
+ expand 1
+ ylabel log(SFR/area) M_{\odot} yr^{-1} pc^{-2}
+ xlabel Distance to Nearest Spiral (Mpc)
+ data sfrdistsc.txt
+ read a 1
+ read d 2
+ read s 3
+ read t 4
+ read r 7
+ set b=d*3.141593/10.8
+ set a=a*b
+ set e=3.141593*(1.5*a*1000.0)**2
+ set l= s-lg(e)
+ expand 2
+ ptype 4 0
+ points t l
+ errorbar t l r 1
+ errorbar t l r 3
+ data sfrdistlg.txt
+ read a 1
+ read d 2
+ read s 3
+ read t 4
+ read r 6
+ set b=d*3.141593/10.8
+ set a=a*b
+ set e=3.141593*(1.5*a*1000.0)**2
+ set l= s-lg(e)
+ expand 2
+ ptype 5 2
+ points t l
+ errorbar t l r 1
+ errorbar t l r 3
+ ptype 1 1
+    set xlegend = {2.15 2.15 3.0}
+    set ylegend = {-14 -10 -10}
+    points xlegend ylegend
+    connect xlegend ylegend
+ set v=2.27
+ set w=-10.5
+ set y=-11.0
+ set z=-11.5
+ ptype 14 3
+ points v w
+ ptype 4 3
+ points v y
+ ptype 3 3
+ points v z
+ relocate 2.35 -10.5
+ expand 1
+ label Centaurus A dIs
+ relocate 2.35 -11.0
+ label Sculptor dIs
+ relocate 2.35 -11.5
+ label Local Group dIs 
