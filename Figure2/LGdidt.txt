@@ -1,26 +1,24 @@
-
- !SMC  SFR/L  MHI/L  Distance to nearest gal   
- !IC 10  
- ! LGS 3            	   
- !IC 1613         
- !Phoenix         
- !NGC 6822         
- !Pegasus dIrr       
- !Leo T             
- !WLM             
- !Leo A         
- !Aquarius        
- !Sagittarius dIrr   
- !UGC 4879           
- !NGC 3109          
- !Sextans B        
- !Antlia          
- !Sextans A      
- !HIZSS 3(A)    
- !HIZSS 3B         
- !KKR 25          
- !Leo P          
- !IC 5152       
- !UKS 2323-326     
- !KKR 3           
- !GR 8          
+   0.061 !SMC log(SFR/L); MHI/L; Distance to nearest gal(MW,M31) in Mpc Refs: SFR from Kennicut 08 mostly, L=LB; dist from McConnachie 2012 Tab2 
+ -9.98 0.00119 0.252 !IC 10  
+ -99 0.789 0.269 ! LGS 3 :  -99 for SFR not-detected          	   
+ -10.40 0.279 0.52 !IC 1613         
+ -99  0  0.415 !Phoenix         
+ -10.21 0.857 0.452 !NGC 6822         
+ -11.63 0.357 0.474 !Pegasus dIrr       
+ 0.422 !Leo T             
+ -10.52 1.01 0.836 !WLM             
+ -10.90 0.879 0.803 !Leo A         
+ -11.94 0.706 1.066 !Aquarius        
+ -10.73 1.09 1.059 !Sagittarius dIrr   
+ -11.06 0 1.367 !UGC 4879           
+ -10.23 2.04 1.301 !NGC 3109          
+ -10.708 1.52 1.43  !Sextans B        
+ -99 0.674 1.35  !Antlia          
+ -10.18 1.34 1.435 !Sextans A      
+ -99 -99 1.682 !HIZSS 3(A)    
+ -99 -99 1.682 !HIZSS 3B         
+ -10.08 1.57 1.62 !Leo P distance from  McQuinn et al 2015         
+ -10.30 0.261 1.945 !IC 5152       
+ -11.39 1.57 2.153 !UKS 2323-326     
+ -99 4.47 2.187 !KKR 3           
+ -9.73 0.94 2.177 !GR 8          
