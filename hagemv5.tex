@@ -1,0 +1,1337 @@
+%%
+%% 
+%% VERSION DE SYLVIE
+%%
+%% Beginning of file 'sample.tex'
+%%
+%% Modified 2005 December 5
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v5.x LaTeX 2e macros.
+
+%% The command below calls the preprint style
+%% which will produce a one-column, single-spaced document.
+%% Examples of commands for other substyles follow. Use
+%% whichever is most appropriate for your purposes.
+%%
+\documentclass[12pt,preprint]{emulateapj}
+
+%% manuscript produces a one-column, double-spaced document:
+
+%\documentclass[manuscript]{aastex}
+
+%% preprint2 produces a double-column, single-spaced document:
+
+%\documentclass[preprint2]{aastex}
+
+
+%% If you want to create your own macros, you can do so
+%% using \newcommand. Your macros should appear before
+%% the \begin{document} command.
+%%
+%% If you are submitting to a journal that translates manuscripts
+%% into SGML, you need to follow certain guidelines when preparing
+%% your macros. See the AASTeX v5.x Author Guide
+%% for information.
+
+\newcommand{\vdag}{(v)^\dagger}
+
+%% You can insert a short comment on the title page using the command below.
+\slugcomment{Starting draft August 2012}
+
+%% Commands for compilation date
+%\usepackage{fancyhdr}
+%\usepackage[yyyymmdd,hhmmss]{datetime}
+%\pagestyle{fancy}
+%\rfoot{Compiled on \today\ at \currenttime}
+%\cfoot{}
+%\lfoot{Page \thepage}
+
+\shorttitle{Morphology-Density Relation in Nearby Groups}
+\shortauthors{C\^ot\'e et al.}
+
+%% This is the end of the preamble.  Indicate the beginning of the
+%% paper itself with \begin{document}.
+
+\begin{document}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+
+\title{Transition Dwarf Galaxies and The Morphology-Density Relation in Nearby Groups of Galaxies}
+
+%% Use \author, \affil, and the \and command to format
+%% author and affiliation information.
+%% Note that \email has replaced the old \authoremail command
+%% from AASTeX v4.0. You can use \email to mark an email address
+%% anywhere in the paper, not just in the front matter.
+%% As in the title, use \\ to force line breaks.
+
+\author{St\'ephanie C\^ot\'e}
+\affil{Canadian Gemini Office, NRC Herzberg Astronomy \& Astrophysics
+5071 West Saanich Rd., Victoria, B.C., Canada, V9E 2E7}
+\email{Stephanie.Cote@nrc-cnrc.gc.ca}
+
+\author{Sylvie F. Beaulieu}
+\affil{Department of Physics and Astronomy, University of Waterloo, Waterloo, ON, Canada, N2L 3G1}
+\email{sfbeaulieu@gmail.com}
+
+\author{Cameron Sobie}
+\affil{Canadian Gemini Office, NRC Herzberg Astronomy \& Astrophysics
+5071 West Saanich Rd., Victoria, B.C., Canada, V9E 2E7}
+\email{csobie@uvic.ca}
+
+\and
+
+\author{Bryan W. Miller and Henry Lee}
+\affil{AURA/Gemini Observatory, Casilla 603, La Serena, Chile}
+\email{bmiller@gemini.edu}
+
+%% Notice that each of these authors has alternate affiliations, which
+%% are identified by the \altaffilmark after each name.  Specify alternate
+%% affiliation information with \altaffiltext, with one command per each
+%% affiliation.
+
+\begin{abstract}
+
+blabla
+
+\end{abstract}
+
+\keywords{galaxies: dwarf --- galaxies: groups: individual: Local Group, Sculptor, Centaurus A, M81, Canes Venatici --- galaxies: evolution}
+
+%% In the first two sections, notice the use of the natbib \cite
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. We have
+%% chosen the first three characters of the first author's name plus
+%% the last two numeral of the year of publication as our KEY for
+%% each reference.
+
+%%
+%% Note that for sources with brackets in their names, e.g. [WEG2004] 14h-090,
+%% the brackets must be escaped with backslashes when used in the first
+%% square-bracket argument, for instance, \object[\[WEG2004\] 14h-090]{90}).
+%%  Otherwise, LaTeX will issue an error. 
+
+\section{Introduction}
+
+Dwarf galaxies are traditionally separated in two classes, the gas-poor early-type dwarfs (dwarf ellipticals, dEs, and dwarf spheroidal galaxies, dSphs) 
+and the gas-rich star-forming dwarf irregular galaxies (dIrrs). Transition dwarf galaxies are defined as dwarf galaxies that show characteristics of both
+classes. They have been known to exist for a very long time, since (\cite{vdb59}) discovered DDO210 and Pegasus in the Local Group and classified 
+them as "mixed-morphology" dwarfs. In the past transition dwarfs have been classified as such based solely on their optical morphology, usually based 
+on having the appearance of an underlying low-surface brightness smooth and symmetric red component (such as expected from a dE) superposed 
+with young blue stars or knots of star formation. This sort of classification has entailed a lot of subjectivity, with the consequence of lack of agreement 
+between authors. Transition dwarfs are found to have a much lower star formation rate for their absolute magnitude and HI mass than normal dIrrs. 
+Many authors now classify a dwarf as a transition dwarf if it contains cold gas (HI) like dIrrs but has no, or only very weak, star formation  as traced in H$\alpha$  
+\citep{m98,ggh03,scm03a,cds09,w11,mcq15}. They are believed by many to be the "missing link" between dIrrs and dEs \citep{hhmh97,ksg99,li13}), and that they 
+represent dwarfs in the midst of a transformation from dIrrs to dEs, through some mechanism that is able to remove the cold gas, drain the angular 
+momentum, and heat the stellar disk (e.g. \cite{scm03a}). But whether they indeed represent a real evolutionary link between these two types of dwarfs 
+is still controversial. Because dIrrs are known to have long periods (100 to 500 Myrs) of enhanced star formation separated by short quiescent epochs 
+when the star formation is low (referred to as "gasping"; \cite{t91}, \cite{mcc12} suggest that perhaps the distinction between a dIrr and transition dwarf 
+might merely reflects the moment we happen to be observing it. In other words, transition dwarfs might simply be dIrrs that happen to be in their temporary 
+quiescent phase.
+
+However, we know that the environment probably has a strong influence on the evolution of dwarfs, and the clear morphology-density relation seen in 
+the Local Group is a striking example. Dwarf spheroidal galaxies are preferentially found within $\sim$ 300 kpc of the normal galaxies (the Milky Way 
+and M31), while dIrrs are more widely spread \citep{vdb94a}. This same morphology-density relation also holds in the nearby groups Sculptor and 
+Centaurus A \citep{cds09}. Interestingly, in both of these groups as well as in the Local Group, the transition dwarfs are found at distances from large 
+galaxies on average in-between, further out from the larger galaxies than the early-type dwarfs, but closer to them than the overall dIrrs. The origin of 
+this morphology-density relation is thought to be the result of quenching of star formation as dwarf galaxies become satellites of larger systems (similar
+to the quenching seen in normal galaxies entering higher redshift clusters, e.g. \cite{go03}). In small groups, galaxies such as the Milky Way are likely 
+surrounded by a hot gas halo which is able to quench star formation of dwarf galaxies falling within their virial radius \citep{grp09}. The quenching can 
+happen either by "strangulation" because there is no more fresh gas to accrete \citep{ltc80}, or by ''ram-pressure stripping" \citep{gg72} that removes 
+the cool gas from the dwarf galaxy as it plows through the large host's gas halo. Closer encounter with the host can further affect the dwarf galaxy 
+morphology through "harassement" \citep{mkldo96}, which can transform a late-type dwarf into an early-type one. A dynamical transformation can also
+be achieved through "tidal-stirring" \citep{mgc01a}, where repeated tidal shocks partially strip the halo and disk of a dIrr to reshape it into a dE/dSph. 
+There are thus many credible scenarios to effectively transform a dIrr into a dSph, in which an intermediate stage, or incomplete process, would be the 
+observed transition dwarfs.
+
+In this context it is thus of interest to survey the most nearby groups of galaxies to find and locate these transition dwarfs. There are now excellent 
+distance estimates for many dwarfs in nearby galaxies thanks to the Tip of the Red Giant Branch (TRGB) method applied to HST Color-Magnitude-Diagrams 
+(CMDs), for example through the ACS Nearby Galaxy Survey (ANGST, \cite{dal09}). With these distances, the Morphology-Density relation can now be 
+investigated with 3D accuracy in some of the nearest groups. This gives us more opportunities to study the location of transition dwarfs amongst other 
+dwarfs within these groups. The study of transition dwarfs in nearby groups can bring clues to their nature and thus, indirectly to the nature of dSphs
+too. In this study we will concentrate on transition dwarfs in the Local Group, the Sculptor, Centaurus, M81 and CanVen Groups. 
+In our previous paper we concentrated on the transition dwarfs of the Sculptor and Centaurus Groups \citep{scm03a, cds09}. 
+Here we will first try to identify new transition dwarfs amongst the faintest members of these groups, then study the morphology-density relation for all the nearby groups listed above. In Section 2, we will present the Gemini H$_\alpha$ observations of a sample of nearby groups dwarfs and discuss their classification as transition 
+dwarfs. Section 3 will present an overall comparison of star forming properties of dwarf galaxies in all these nearby groups and their population of transition 
+dwarfs. Section 4 will present the Morphology-Density relation for the nearby groups, and discuss the implications for transition dwarfs.
+
+\section{Observations}
+
+%% In a manner similar to \objectname authors can provide links to dataset
+%% hosted at participating data centers via the \dataset{} command.  The
+%% second curly bracket argument is printed in the text while the first
+%% parentheses argument serves as the valid data set identifier.  Large
+%% lists of data set are best provided in a table (see Table 3 for an example).
+%% Valid data set identifiers should be obtained from the data center that
+%% is currently hosting the data.
+%%
+%% Note that AASTeX interprets everything between the curly braces in the 
+%% macro as regular text, so any special characters, e.g. "#" or "_," must be 
+%% preceded by a backslash. Otherwise, you will get a LaTeX error when you 
+%% compile your manuscript.  Special characters do not 
+%% need to be escaped in the optional, square-bracket argument.
+
+
+%% In this section, we use  the \subsection command to set off
+%% a subsection.  \footnote is used to insert a footnote to the text.
+
+%% Observe the use of the LaTeX \label
+%% command after the \subsection to give a symbolic KEY to the
+%% subsection for cross-referencing in a \ref command.
+%% You can use LaTeX's \ref and \label commands to keep track of
+%% cross-references to sections, equations, tables, and figures.
+%% That way, if you change the order of any elements, LaTeX will
+%% automatically renumber them.
+
+%% This section also includes several of the displayed math environments
+%% mentioned in the Author Guide.
+
+\subsection{Gemini Observations}
+
+Eight dwarf galaxies from the Sculptor and Centaurus A groups previously identified as transition dwarf candidates, based on their morphology,  were 
+imaged at the Gemini-South Telescope with GMOS-S in queue-observing (program GS-2007B-Q-227).The data were all obtained over a period of two 
+weeks in July 2007. The GMOS-South detector array consisted, at the time, of 3 EEV CCDs of $2048\times 4068$ pixels detectors, with pixel size of 
+0.073\arcsec, which were binned $2\times 2$ for these observations. Each dwarf galaxy was observed 4 times 300 seconds with the H$_\alpha$ 
+narrow-band filter (centered at 656 nm and with a FWHM of 7 nm), followed by 4 times 300 seconds with the off-band H$_\alpha$ continuum filter (centered on 662 nm with FWHM of 7 nm), with each sets of 4 exposures 
+following a dithered pattern of up to 5\arcsec or 6\arcsec. This is necessary to recover the regions in the gaps between the three CCD chips which are 
+about 39 unbinned pixels wide. Data were acquired under observing conditions of thin cirrus but with variations of less than 15\%, and with seeing
+ranging from 0.48\arcsec to 0.95\arcsec. Some Stone and Baldwin standard stars were also acquired (LTT377 and LTT7379, \cite{sb83}), as well as 
+twilight flatfields for both filters. The nine observed dwarf galaxies are listed in Table~\ref{tbl1}.
+
+\subsection{Data Reductions}
+
+The data were reduced using mostly the Gemini IRAF package. Mean bias frames for the bias subtraction were created by combining all usable bias 
+frames of each of the GMOS-S observing runs. A bad pixel mask was constructed using the Quartz-Halogen flats, and the twilight flats were used for 
+flatfielding the data. The four exposures in each filter were registered and co-added. The co-added off-band image was then smoothed with a Gaussian 
+so that in the final image the point-spread functions matched as closely as possible those in the H$_\alpha$ image. This continuum image was then scaled 
+appropriately, and then subtracted from the H$_\alpha$ image. 
+
+H$_\alpha$ fluxes were obtained by integrating the emission within all the detected HII regions. Errors in fluxes are up to 20\% due mainly to absolute 
+flux calibration uncertainties. Also, no correction for [NII] contamination were applied to the fluxes, dwarf galaxies have very low nitrogen abundances
+\cite[see, e.g.,][]{scm03b} but this introduces an additional $\sim $6\% flux uncertainty. H$_\alpha$ luminosities were then computed from the H$_\alpha$ 
+fluxes using the distances of Table~\ref{tbl1}, and using a Galactic extinction correction following $A(H_\alpha ) = 2.32 E(B-V)$ \citep{mh94}, with reddening values 
+from \cite{sfd98}. These H$_\alpha$ luminosities were then converted to current star formation rates (SFRs) following \cite{ktc94}, with:
+
+\begin{equation}
+SFR(total) = {{L(H\alpha )}\over{1.26\times 10^{41} erg\  s^{-1}}}\
+M_\odot\  yr^{-1}
+\end{equation}
+
+which has been derived for normal spiral galaxies, using a modified Salpeter IMF.  No corrections were made for internal extinction (which are necessary 
+for normal spirals) since these are very small in low metallicity dwarf systems. These SFRs are tabulated in Table 2.
+Four dwarf galaxies were detected, and four were not, with detection limits below $0.53\times 10^{-5}$ M$_{\odot}$ yr$^{-1}$.
+Figure~\ref{fig1} shows the H$_\alpha$-band images (left panels) and the final continuum-subtracted H$_\alpha$ images (right panels) of the detected 
+dwarf galaxies. 
+
+Some of our galaxies have previous H$_\alpha$ measurements in the literature. Both NGC59 and ESO407-G18 were detected in \cite{kl08} survey, 
+and our values agree very well with them within errors:  $11.7\pm 1.5 \times 10^{-3}$ and $4.3\pm 1.9 \times 10^{-5}$ M$_{\odot}$ yr$^{-1}$ for SFR respectively, 
+scaling \cite{kl08} published values to the same new distances that we used (listed in our Table 1). 
+For ESO384-G16 though there is a large discrepancy between the flux detected here (3.91 $\times 10^{-15}$ and that of \cite{bou09} which is more than 3 times higher ($13.6 \times 10^{-15}$). We do not think that this is due to uncorrected heavy attenuation on the night of our observations because the same standard star was used on the other observing nights and the counts are consistent. As for \cite{bou09} 's value, in the comments on individual objects (their section 2.6.4) the authors concede that the $27.3 \times 10^{-15}$ detection for ESO219-G10 (even higher than ESO384-G16's) could be entirely interpreted as a spurious detection,
+because "different seeing conditions in the off-band and on-band images is likely to have altered our capacity of making a good 
+continuum estimate". It is thus possible that the same caveat applies to their ESO384-G16 observations, which would explain the discrepancy 
+with our number. Note that whether their value or ours is closer to reality this does not change the conclusions below on the classification 
+of ESO384-G16 as a transition dwarf or not. This could also explain another discrepancy, this time with ESO540-G32 for which they report an unusual unresolved single peak of emission of $0.8\pm 0.3 \times 10^{-5}$ M$_{\odot}$ yr$^{-1}$ near the center while our data show a non-detection to a level 
+of $0.22 \times 10^{-5}$ M$_{\odot}$ yr$^{-1}$. This could have easily been produced by a leftover core because the off-band and on-band images 
+were not smoothed to the same point-spread functions (a step which was performed on our data, see above). More data would be needed on this object 
+to settle this question, but for the remainder of the paper our non-detection value is adopted.  
+The HII regions in the detected dwarf galaxies have a very wide distribution, sometimes being found exclusively on the outer edges of the optical 
+disks, as is very commonly the case in dwarf galaxies (eg. \cite{bha98}). 
+We discuss below which of our observed dwarfs are classified as transition dwarfs or normal dIs based on our results. 
+
+
+\section{Transition dwarfs in nearby groups}
+
+The SFRs of our observed dwarfs are very low relative to normal spiral galaxies, and 
+either comparable to the low levels of star formation typical of dIs or even lower. Normal galaxies have SFRs that correlate with their luminosity 
+and the same correlation continues to lower luminosity for dIs. In other words the SFR per unit luminosity remains about the same from giant to 
+dwarf galaxies. From \cite{kai07}  sample of 154 Local Volume galaxies with morphological type $T>0$, bright galaxies of M$_B=-20$ have on average
+a log SFR $\sim 0$, while galaxies of M$_B=-15$ have log SFR $\sim -2$ and dwarf galaxies of M$_B=-10$ have log SFR $\sim -4$.
+Amongst our sample of eight dwarf galaxies four were not detected in H$\alpha$ (HIPASSJ1321-31, ESO410-G05, ESO540-G30 and ESO540-G32), two were detected but at much suppressed levels of SFR compared to dIs of  
+ the same luminosity (ESO384-G16, ESO407-G18), and two were detected with normal SFRs for their luminosity (HIPASSJ1337-39, NGC59). 
+All except the last two are therefore classified as transition dwarfs.
+
+These dTrans galaxies are to be added to the previously identified dTrans in the same Groups. The four Sculptor Group dTrans 
+identified here can be added to the other four cases already known: SDIG, DDO6, UGCA438, and ESO294-G10; and in the Centaurus Group
+our two dTrans add to the three previously identified: ESO269-G58, UGCA365 and UKS1424-460 \citep{cds09}. In the Local Group the 
+following 6 galaxies have been previously classified as dTrans: LGS3, Antlia, DDO210, Pegasus, Phoenix \citep{m98} and Leo T \cite{ibe07}.
+
+There are no previous study that has focused on dTrans in the M81 or Canes Venatici Groups, so we list in 
+Appendix 1 all their dwarf members (of all types) as well as their star formation rates and neutral gas content.
+Their SFRs and HI masses are what is used to determine their dTrans nature or not, following the same criteria as in the studies quoted above, which were based on \citep{m98} convention that dTrans are those with detectable amount 
+of HI but no significant recent star formation as measured by H$\alpha$.
+We find a total of X dTrans in M81 () and X in Canes Venatici ().
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Boyer et al 2015 ApJS;"The dTrans galaxies are typically gas rich, but show no evidence of current massive star formation through the presence of 
+Hii regions. THe nature of transition galaxies is a matter of debate. Many dTrans galaxies are consistent with dIrr 
+galaxies that are forming stars at such a low rate that the absence of Hii regions is consistent 
+with stochastic variations. However, some show evidence for reduced gas mass fractions and apparently lie between the dSphs 
+and dIrrs in the morphology–density relationship (e.g., Skillman et al 2003, Weisz et al 2011)."
+
+
+\section{Discussion} 
+
+
+XX Figure 2: Maybe: log SFR/LB versus log MHI/Lb (to compare the various groups)
+
+XX FIgure 3: SFR or SFR/LB versus Distance from spiral
+
+XX Figure 4: MHI/LB versus DIstance from spiral
+
+XX FIgure5: HIstogram dI/trans/dE versus Distance
+
+H$_\alpha$ traces the young gas (XX Myears) so we are finding the trans dwarfs that have just recently been affected by strangulation. (if looked for lack 
+of uv would be from stars xx older, and from stellar pops even older) i.e.: strangulation might have happened a very long time ago - by that time dwarf can 
+move away (given typical velocity) away from central galaxy affecting them.
+
+Pop gradients with higher metallicity more centrally concentrated is seen in many LG dwarfs see list of refs Habeck, Kirby etc in Lianou 1211.3170
+weisz 211 says sfh of lg dwarf similar cumulatively but it is the recent sf that is different: early epoch dominated by internal processes, later phases by 
+influenced by environment. MHI goes up vs distance (lianou 1211.3170).
+
+Mpc scale pancakes and filaments do not develop typically until z=2 benitez navarro 1211.0536
+
+Nice review by Grebel 1103.6234: morphology-density relation in groups: HI mass -radius relation, e.g. HI masses from dwarfs $<270$ kpc from MW,M31 are
+ $<10^4 M\odot$ (Grcevich \& Putman 2009). In the LG no two dwarf share the same SFH (not even within the same morphological type). SFR and SFH in 
+ LG and nearby groups do not show a clear correlation with distance from closest primary (weisz 2011, cote 2009, lianou 2010). Typically extended episode 
+of SF, leading to large abundance spreads (one dex in Fe/H or more). dsph typically too metal-rich for their luminosity compared to late-type dwarfs (might 
+make it difficult to turn dirr into dsph; maybe low-mass trans types have the right metallicity). Population gradients in many but not all dwarfs both early and 
+late types. Usually the metal-rich younger pop is more centrally concentrated.
+
+Morphology-density relation: the higher the density the more efficiently the infalling spirals and irr transformed into dEs. for example conselice 2001 find 
+number of des in virgo is 3 times than expected from just adding groups to cluster (lisker grebel 2006).
+
+5 dIrrs from CenA from HST: looking at recent level of activity (0.5 to 1 gyr, dwarfs in denser part of the group seem to have had their sf quenched while 
+dwarfs in outskirts show wide range of sr rates (crnojevic grebel 1203.5817) Importance of external processes in shaping SFH of dwarf galaxies.
+
+Resonant stripping (d'Onghia et al 0907.2442) to transform a dwarf disk into dsph. Blowout by feedback from SF does not work because DM halo is too 
+large $10^8$ M$_\odot$ for SN-driven winds to remove gas. Other: tidal-stirring + ram pressure but dwarfs need to orbit very close to giant. From numerical 
+exp: after 2 billion years 80\% of stars are stripped, caused by resonant stripping.due to resonance between spin angular frequency and angular freq of orbit.
+
+Tidal stirring: strongest and most compete transformation occur with short orbital times and small pericenter distances (kazantzidis, lokas, mayer 1009.2499)
+Tidal stirring: if density profile of diir progenitor is more core-like than a single pericentric passage can induce dsph formation and disky dwarfs on low-eccentricity 
+or large pericenter orbits to be able to transform into dsph kazabntzidis mayer 1302.0008. Bar-like structure should be common in less evolved dwarfs as the
+bar stage is one of the longest phases in the transformation process.
+
+At 250kpc MW coronal halo gas is order of mag too low to remove HI gas via ram-pressure. need feedback+tidal+ram (Nicholds, bland-hawthorn 1102.4849).
+
+There are also clues from the kinematics of dEs that supports the idea that they might indeed be the remnants of transformed disk galaxies. Beasley et al 
+(0903.4364) looked at the globular cluster system kinematics of 3 Virgo dEs and found that they have $V_{rot}/V_{los} > 1$.
+
+Weisz 2008 0809.5059: recent SFH of M81 dirs: no clear trend vs faint to bright, or LG vs M81 (SF of dir must be dominated by stochastic processes).
+Weisz 2011: there is no difference between SFHs of dIrr and dSph actually similar over most of cosmic time, only in past few gyrs, and particularly las 1 gyr, 
+that sfhs differ. sfh dir and trans no difference.
+
+From galaxy imaging in 23 groups at z=0.06, rasmussen mulchaey 1208.1762, SF members are suppressed relative to the field out to an average radius of 
+R=1.5 Mpc (2 R200), suppression is stronger in more massive groups.same bahe balogh 1210.8407 depletion of hot and cold gas is seen as far as 5 r200.
+
+At faint end H$_\alpha$ is underpredicting total SFR from FUV. By SFR-0.003, average H$_\alpha$ to FUV is lower by factor 2. new calib logsfr vs LHalpha 
+(Lee, Kennicut, 0909.5205)
+
+dIrrs in denser environment and closer to dominant galaxies have had lower SFRs in the last ~500Myr (Crnojevic et al 1009.4198).
+
+dIrrs in denser region have a much lower MHI/SFR than isolated ones (crnojevic, grebel 1103.3707)
+
+MHI mass does not correlate with their present day distance from main galaxy but MHI/Mbaryonic does (1203.5817)
+No correlation SFR with present-day distance to main galaxy fig2 (1203.5817).
+
+H$_\alpha$ traces short-lived massive stars but at low values $<10^-3 M\odot/yr$ stochastic sampling of IMF affects use of H$_\alpha$. longer-lived UV thus 
+is preferable but has to be corrected for the effect of dust attenuation calzetti 1208.2997
+
+From Weisz et al 2011 ApJ 739 :(1) the majority of dwarf galaxies formed the bulk of their mass prior to z ~ 1, 
+regardless of current morphological type; (2) the mean SFHs of dIs, transition dwarf galaxies (dTrans), and dSphs 
+are similar over most of cosmic time, and only begin to diverge a few Gyr ago, with the clearest differences between 
+the three appearing during the most recent 1 Gyr and (3) the SFHs are complex and the mean values are inconsistent 
+with simple SFH models, e.g., single bursts, constant star formation rates (SFRs), or smooth, exponentially declining SFRs.
+ The mean SFHs show clear divergence from the cosmic SFH at z <~ 0.7, which could be evidence that low-mass systems have 
+experienced delayed star formation relative to more massive galaxies. The sample shows a strong density-morphology 
+relationship, such that the dSphs in the sample are less isolated than the dIs. We find that the transition from a 
+gas-rich to gas-poor galaxy cannot be solely due to internal mechanisms such as stellar feedback, and instead is likely 
+the result of external mechanisms, e.g., ram pressure and tidal stripping and tidal forces. In terms of their environments,
+ SFHs, and gas fractions, the majority of the dTrans appear to be low-mass dIs that simply lack Hα emission, similar to 
+Local Group (LG) dTrans DDO 210. However, a handful of dTrans have remarkably low gas fractions, 
+suggesting that they have nearly exhausted their gas supply, analogous to LG dTrans such as Phoenix. 
+
+From de Looze 2013 mnras: Hershel Virgo cluster survey: "Dust scaling relations support the hypothesis of a transformation 
+between infalling late-type galaxies to quiescent low-mass spheroids governed by environmental effects, with 
+dust-to-stellar mass fractions for transition-type dwarfs in between values characteristic for late-type objects and 
+the lower dust fractions observed in early-type galaxies. Several transition-type dwarfs demonstrate blue central cores, 
+hinting at the radially outside-in removal of gas and quenching of star formation activity. The fact that dust is also 
+confined to the inner regions suggests that metals are stripped in the outer regions along withthe gas."
+
+see Adam Muzzin (gemini conf toronto 2015) about list of mechanisms and their sphere of influence eg: ram-pressure, strangulation etc in mid-redshift clusters
+
+cite Boselli et al 2008, two papers about trans dwarfs inthe Virgo cluster
+check Boselli & Gavazi 2014 AAReview for references on dtrans including in group environments
+
+
+%% If you wish to include an acknowledgments section in your paper,
+%% separate it off from the body of the text using the \acknowledgments
+%% command.
+
+\section{To Do}
+
+LIST OF ALL the THINGS LEFT TO CHECK:
+
+- check all table3 CanVen if some CanVen dwarfs NOW have good distances. (Sylvie doing the checks and updating the list) they should get into 
+the histogram lists of alldi.tex, allteans.tex. check ugc8882 KK166 KKR25, they are all trans, but they are missing from alltrans.txt in canes Ven. 
+check NED then add them to the list of dwarfs. Maybe they don't have a measured distance? (or did not have at the time?) alltrans.txt is only for 
+those with distances. For CanVen , did we use uniform distances from Makarov 1305-3701 or not? (better to take best distances, even if not the 
+same source for all)
+
+- check Weisz 2011 Apj 743 he lists some M81 dwarfs as dtrans based on Angst data (check if same as ours).
+
+-check if segue1 is in Local group sample (from the tables in typeHistogram it looks like it isn't)
+
+-KDG61: is actually a dsph behind a M81 tidal HII region, according to Croxall et al 2009, eg: the HII region is NOT part of KDG61. Make sure it is not listed in the dI table.
+
+
+- d0926+70 in M81 group listed as di/dsph by Chiboucas 2013 aj 146,5,126., check if trans selon mes criteres - one of the smallest dwarfs with recent SF known Mr=-9.7
+
+-mention new detections of MW dwarfs by DEcam survey- but say distance estimates very bad, rest on 5 or 6 stars in CMD etc.so not trusting the distances.
+
+\acknowledgments
+
+This work made extensive use of the NASA/IPAC Extragalactic Database (NED) which is operated by the Jet Propulsion Laboratory, California Institute of Technology, 
+under contract with the National Aeronautics and Space Administration. Thanks to our friends at Gemini for acquiring the queue data.
+
+%% After the acknowledgments section, use the following syntax and the
+%% \facility{} macro to list the keywords of facilities used in the research
+
+{\it Facilities:}  \facility{Gemini (GMOS-S)}.
+
+%% Appendix material should be preceded with a single \appendix command.
+%% There should be a \section command for each appendix. Mark appendix
+%% subsections with the same markup you use in the main body of the paper.
+
+\appendix
+
+\section{M81 and Canes Venatici group members}
+
+In this Table we list the dwarf galaxies known to be members of the M81 and Canes Venatici Groups. We only list the objects 
+that have had their distances estimated reliably (mostly TRGB, and some even have cepheids or RRLyrae distances), 
+and are therefore confirmed to be bona fide members of these groups. The columns of the Table give the following:
+(1) Name; (2) Coordinates; (3) Distance and error; (4) Morphological Type:  
+for simplicity we only use four types of classes for the dwarf members, following \citep{m98},\citep{w11} 
+morphological classifications: for the early-type dwarfs dSph and dE  
+(dwarf Spheroidals and dwarf Ellipticals), dI for all dwarf irregulars including Blue
+Compact dwarfs, and dTrans; (5) the ratio of the Star Formation Rate over the luminosity 
+of the galaxy;(6) the ratio of HI mass to the luminosity of the galaxy; and (7) the references for, 
+in order, the distance, the star formation rates and, if from a different source, the HI mass. 
+(explain cutoff at 0.25 Mpc error, because that's about the size of the effect we expect to see in terms of distance difference between the different types of dwarfs)
+
+%%% Table 3: nom, coords, distances +- error, type, SFR/L, MHI/L , refs
+
+%%%%%%%%
+%%%% Table 3  --  do not use \tablewidth{0pt} -- use \LongTables for this one
+
+\LongTables
+\begin{deluxetable}{lcccccc}
+\tablenum{3}
+\pagestyle{empty}
+\tablecaption{Dwarf Galaxies members of M81 and Canes Venatici Groups\label{tbl3}}
+%\tablewidth{0pt}
+\tablehead{
+\colhead{Galaxy} &
+\colhead{RA-Dec} & 
+\colhead{Distance} & 
+\colhead{Type} &
+\colhead{Log(SFR/L(B))} & 
+\colhead{M(HI)/L(B)} & 
+\colhead{Refs.} 
+\\
+\colhead{} &  
+\colhead{(J2000)} & 
+\colhead{Mpc} &
+\colhead{} & 
+\colhead{M$_{\odot}$ yr$^{-1}$ L$_{\odot}^{-1}$}  & 
+\colhead{M$_{\odot}$/L$_{\odot}$} &
+\colhead{}
+}
+\startdata
+
+
+&&&M81&&&\\
+\\
+NGC~2366 & 07:28:54.6 69:12:57& 3.11 $\pm$0.09 & dI & -9.45 & 1.78 & 3,4 \\
+UGCA133 & 07:34:11.5 66:52:47 & 3.1 $\pm$0.05 & dTrans? & -12.09 & 0.10 & 1,2 \\ 
+UGC4459 & 08:34:07.2 66:10:54 & 3.66 $\pm$0.18 & dI & -9.58 & 1.17 & 5,4 \\
+KKH~34 & & & & -10.89 & 0.93 & \\
+KKH~37 & & & & -10.56 & 0.68 & \\
+Holmberg~II & & & & -9.93 & 1.29 & \\
+KDG~52 & & & & -11.87 & 2.15 & \\
+UGC~4483 & & & & -9.63 & 1.68 & \\
+Holmberg~I & & & & -10.12 & 1.39 & \\
+BK~3N & & & & -11.17 & 2.96 & \\
+A0952 & & & & -9.90 & 1.6 & \\
+Holmberg~IX & & & & -10.31 & 6.85 & \\
+NGC~3077 & & & & -10.25 & 0.31 & \\
+TheGarland & & & & -8.80 & 6.14 & \\
+UGC~5423 & & & & -10.18 & 0.25 & \\
+IC~2574 & & & & -9.80 & 1.13 & \\
+DDO~82 & & & & -10.46 &$<$0.02& \\
+DDO~87 & & & & -10.33 & 1.17 & \\
+KDG~73 & & & & -11.15 & 0.97 & \\
+UGC~6456 & & & & -9.52 & 0.97 & \\
+UGC~7242 & & & & -10.49 & 0.7 & \\
+DDO~165 & & & & -10.74 & 0.82 & \\
+\\
+&&&Canes Venatici&&&\\
+\\
+UGC~5427 & & & & -10.17 & 0.32 & \\
+UGC~5672 & & & & -10.15 & 0.22 & \\
+NGC~3274 & & & & -8.92 & 1.2 & \\
+UGC~6541 & & & & -9.36 & 0.22 & \\
+NGC~3738  & & & & -10.14 & 0.18 & \\
+NGC~3741 & & & & -9.72 & 4.07 & \\
+KK~109 & & & & -11.38 & 2.75 & \\
+DDO~99 & & & & -10.08 & 1.29 & \\
+BTS~76 & & & & -10.68 & 0.59 & \\
+NGC~4068 & & & & -9.87 & 0.81 & \\
+MCG~627 & & & & -11.0 & 0.21 & \\
+NGC~4163 & & & & -10.55 & 0.37 & \\
+NGC~4190 & & & & -10.02 & 0.81 & \\
+DDO~113 & & & & -11.86 & 0.28 & \\
+MCG~920 & & & & -10.16 & 0.83 & \\
+UGC~7298 & & & & -11.22 & 1.62 & \\
+UGC~7356 & & & & -11.45 & 11.48 & \\
+IC~3308 & & & & -10.09 & 1.86 & \\
+KK~144 & & & & -10.34 & 4.68 & \\
+UGCA~281 & & & & -8.95 & 1.26 & \\
+DDO~126 & & & & -9.85 & 1.82 & \\
+DDO~125 & & & & -10.60 & 0.46 & \\
+UGC~7584 & & & & -10.01 & 1.2 & \\
+KKH~80 & & & & -11.68 & 0.69 & \\
+DDO~127 & & & & -10.74 & 1.78 & \\
+UGC~7605 & & & & -10.09 & 0.66 & \\
+KK~149 & & & & -10.50 & 0.41 & \\
+UGC~7639 & & & & -11.08 & 0.34 & \\
+DDO~133 & & & & -9.91 & 1.58 & \\
+ARP~211 & & & & -10.04 & 0.35 & \\
+UGCA~292 & & & & -9.37 & 5.62 & \\
+NGC~4627 & & & & -12.84 & 0.05 & \\
+IC~3687 & & & & -10.10 & 0.95 & \\
+DDO~147 & & & & -10.32 & 2.82 & \\
+KK~166 & & & & -11.22 & 0.76 & \\
+DDO~194 & & & & -10.39 & 0.62 & \\
+KKR~25  & & & & -11.17 & 0.05 & \\
+\enddata
+\tablecomments{References are: (1)\cite{dal09}, (2)\cite{kk07}, (3)\cite{mcq10}, (4)\cite{kl08}, (5)\cite{j09}, (6) ...  }
+\end{deluxetable}
+
+
+
+
+%%
+%% thebibliography produces citations in the text using \bibitem-\cite
+%% cross-referencing. Each reference is preceded by a
+%% \bibitem command that defines in curly braces the KEY that corresponds
+%% to the KEY in the \cite commands (see the first section above).
+%% Make sure that you provide a unique KEY for every \bibitem or else the
+%% paper will not LaTeX. The square brackets should contain
+%% the citation text that LaTeX will insert in
+%% place of the \cite commands.
+
+%% We have used macros to produce journal name abbreviations.
+%% AASTeX provides a number of these for the more frequently-cited journals.
+%% See the Author Guide for a list of them.
+
+%% Note that the style of the \bibitem labels (in []) is slightly
+%% different from previous examples.  The natbib system solves a host
+%% of citation expression problems, but it is necessary to clearly
+%% delimit the year from the author name used in the citation.
+%% See the natbib documentation for more details and options.
+
+\begin{thebibliography}{}
+
+\bibitem[Aguerri et al.(2005)]{aivms05} 
+Aguerri, J.~A.~L., Iglesias-P{\'a}ramo, J., V{\'{\i}}lchez, J.~M., 
+Mu{\~n}oz-Tu{\~n}{\'o}n, C., \& S{\'a}nchez-Janssen, R.\ 2005, \aj, 130, 475 
+
+\bibitem[Armandroff et al.(1999)]{ajd99}
+Armandroff, T.~E., Jacoby, G.~H., \& Davies, J.~E.\ 1999, \aj, 118, 1220
+
+\bibitem[Babul \& Rees(1992)]{br92}
+Babul, A.~\& Rees, M.~J.\ 1992, \mnras, 255, 346 
+
+\bibitem[Balogh et al.(1997)]{bal97} 
+Balogh, M., Morris, S., Yee, H., Carlberg, R., Ellingson, E.\ 1997, \apj, 488, L75 
+
+\bibitem[Banks et al.(1999)]{b99} 
+Banks, G.~D., et al.\ 1999, \apj, 524, 612 
+
+\bibitem[Barkana \& Loeb(1999)]{bl99}
+Barkana, R., \& Loeb, A. 1999, ApJ, 523, 54
+
+\bibitem[Barnes et al.(2001)]{hipass01}
+Barnes, D.~G.~et al.\ 2001, \mnras, 322, 486 
+
+\bibitem[Beaulieu et al.(2006)]{b06} 
+Beaulieu, S., Freeman, K.C., Carignan, C., \&  Lockman, F.J.\ 2006, AJ, 131, 325 
+
+\bibitem[Begum \& Chengalur(2005)]{bc05} 
+Begum, A., \& Chengalur, J.~N.\ 2005, \mnras, 362, 609 
+
+\bibitem[Begum et al.(2008)]{be08}
+Begum, A., Chengalur, J.N., Karachentsev, I.D., Sharina, M.E., \& Kaisin, S.S.\ 2008, \mnras, 386, 1667
+
+\bibitem[Bell (2003)]{b03}
+Bell, E.F.\ 2003, ApJ, 586, 794
+
+\bibitem[Binggeli et al.(1990)]{bts90}
+Binggeli, B., Tarenghi, M., \& Sandage, A. 1990, A\&A, 228, 42
+
+\bibitem[Blitz \& Robishaw(2000)]{br00}
+Blitz, L.~\& Robishaw, T.\ 2000, \apj, 541, 675 
+
+\bibitem[Bomans et al.(1997)]{bch97}
+Bomans, D.J., Chu, Y.H., \& Hopp, U. 1997, \aj , 113, 1678
+
+\bibitem[Bomans \& Grant(1998)]{bg98}
+Bomans, D.J., \& Grant, M.-B. 1998, Astron.\ Nach., 319, 26
+
+\bibitem[Boissier et al.(2007)]{boi07} 
+Boissier, S., Gil de Paz, A., Boselli, A. et al. \ 2007, \apj, 173, 524 
+
+\bibitem[Bouchard et al.(2003)]{bcm03} 
+Bouchard, A., Carignan, C., \& Mashchenko, S.\ 2003, \aj, 126, 1295 
+
+\bibitem[Bouchard et al.(2004)]{bdj04} 
+Bouchard, A., Da Costa, G.~S., \& Jerjen, H.\ 2004, \pasp, 116, 1031 
+
+\bibitem[Bouchard et al.(2005)]{bjdo05} 
+Bouchard, A., Jerjen, H., Da Costa, G.~S., \& Ott, J.\ 2005, \aj, 130, 2058 
+
+\bibitem[Bouchard et al.(2007)]{bjdo07} 
+Bouchard, A., Jerjen, H., Da Costa, G.~S., \& Ott, J.\ 2007, \aj, 133, 261 
+
+\bibitem[Bouchard et al.(2009)]{bou09} 
+Bouchard, A., Da Costa, G.~S., \& Jerjen, H.\ 2009, AJ, 137, 3038
+
+\bibitem[Brosch et al.(1998)]{bha98}
+Brosch, N., Heller, A., \& Almoznino, E. 1998, \mnras , 300, 1091
+
+\bibitem[Bullock et al.(2000)]{bkw00}
+Bullock, J.S., Kravtsov, A.V., \& Weinberg, D.H. 2000, ApJ, 539, 517
+
+\bibitem[Cannon et al.(2003)]{cdsbcm03} 
+Cannon, J.~M., Dohm-Palmer, R.~C., Skillman, E.~D., Bomans, D.~J., 
+C{\^o}t{\'e}, S., \& Miller, B.~W.\ 2003, \aj, 126, 2806 
+
+\bibitem[Carraro et al.(2001)]{ccgl01}
+Carraro, G., Chiosi, C., Girardi, L., \& Lia, C. 2001, \mnras, 327, 69 
+
+\bibitem[Calzetti et al.(1999)]{cal99}
+Calzetti, D., Conselice, C.J., Gallagher, J.S. \& Kinney, A.L. 1999, AJ, 118, 797
+
+\bibitem[Carignan et al.(1991)]{cdc91}
+Carignan, C., Demers, S. \& C\^ot\'e, S. 1991, ApJ, 381, L13
+
+\bibitem[Chung et al.(2007)]{cvg07}
+Chung, A., van GOrkom, J.H., Kenney, J. \& Vollmer, B. 2007, ApJ, 659, L115 
+
+\bibitem[Conselice et al.(2003)]{cogw03} 
+Conselice, C.~J., O'Neil, K., Gallagher, J.~S., \& Wyse, R.~F.~G.\ 2003, \apj, 591, 167 
+
+\bibitem[Conselice(2006)]{c06} 
+Conselice, C.~J.\ 2006, ArXiv Astrophysics e-prints, arXiv:astro-ph/0605531 
+
+\bibitem[C\^ot\'e(1995)]{c95}
+C\^ot\'e, S. 1995, Ph.D.\ Thesis, Australian National University
+
+\bibitem[C\^ot\'e et al.(2000)]{ccf00}
+C\^ot\'e, S., Carignan, C., \& Freeman, K.C. 2000, \aj , 120, 3027
+
+\bibitem[C\^ot\'e et al.(1997)] {cfcq97}
+C\^ot\'e, S., Freeman, K. C., Carignan, C., \& Quinn, P. 1997, AJ, 114, 1313
+
+\bibitem[C\^ot\'e et al.(2009)] {cds09}
+C\^ot\'e, S., Draginda, A., Skillman, E.D., Miller, B.W. 2009, AJ, 138, 1037
+
+\bibitem[C\^ot\'e et al.(2006)] {cpf06}
+C\^ot\'e, P., Piatek, S., Ferrarese, L.~et al. 2006, ApJS, 165, 57
+
+\bibitem[de Blok et al.(2002)]{dzdbf02} de Blok, W.~J.~G., 
+Zwaan, M.~A., Dijkstra, M., Briggs, F.~H., \& Freeman, K.~C.\ 2002, \aap, 
+382, 43 
+
+\bibitem[da Costa et al.(2007)] {djb08}
+Da Costa, G.~S., Jerjen, H., \& Bouchard, A.\ 2007, ArXiv Astrophysics e-prints, arXiv:astro-ph/0710.1420
+
+\bibitem[Dalcanton et al.(2009)] {dal09}
+Dalcanton, J.J. et al.\ 2009, ApJS, 183, 67 
+
+\bibitem[Dav\'e et al.(2001)] {dave2001}
+Dav\'e, R. et al.\ 2001, ApJ, 552, 473
+
+\bibitem[Davidge (2008)] {da08}
+Davidge, T.J.\ 2008, AJ, 135, 1636
+
+\bibitem[De Rijcke et al.(2004)]{ddzh04} 
+De Rijcke, S., Dejonghe, H., Zeilinger, W.~W., \& Hau, G.~K.~T.\ 2004, \aap, 426, 53 
+
+\bibitem[de Vaucouleurs(1958)]{d58}
+de Vaucouleurs, G. 1958, AJ, 63, 253
+
+\bibitem[de Vaucouleurs(1975)]{d75}
+de Vaucouleurs, G. 1975, in Stars and Stellar Systems 9, Galaxies
+and the Universe, ed.\ A.\ Sandage, M.\ Sandage, \& J.\ Kristian
+(Chicago: Univ.\ Chicago Press), 557
+
+\bibitem[de Vaucouleurs(1979)]{deV79}
+de Vaucouleurs, G. 1979, AJ, 84, 1270
+
+\bibitem[de Vaucouleurs(1991)]{rc3}
+de Vaucouleurs, G., de Vaucouleurs, A., Corwin, H. G. Jr.,
+Buta, R. J., Paturel, G., \& Foqu\'e, P. 1991, Third Reference
+Catalog of Bright Galaxies, (New York: Springer) (RC3)
+
+\bibitem[Dohm-Palmer et al.(1997)]{dp97a}
+Dohm-Palmer, R.~C.~et al.\ 1997, \aj, 114, 2527 
+
+\bibitem[Dohm-Palmer et al.(1998)]{dp98}
+Dohm-Palmer, R.~C.~et al.\ 1998, \aj, 116, 1227 
+
+\bibitem[Done et al.(1996)]{do96}
+Done, C., Madejski, G.M., \& Smith, D.A. \ 1996, \apj, 463, L63 
+
+\bibitem[Doyle et al.(2005)]{doy05}
+Doyle, M.~T. ~et al. \ 2005, \mnras, 361, 34D 
+
+\bibitem[Efstathiou(1992)]{e92}
+Efstathiou, G. 1992, \mnras, 256, 43P 
+
+\bibitem[Elmegreen(1997)]{e97} 
+Elmegreen, B.~G.\ 1997, \apj, 477, 196 
+
+\bibitem[Ferguson(2002)]{f02} 
+Ferguson, A.~M.~N.\ 2002, \apss, 281, 119 
+
+\bibitem[Ferguson et al.(1996)]{fwgh96}
+Ferguson, A.~M.~N., Wyse, R.~F.~G., Gallagher, J.~S., \& Hunter, D.~A.\ 
+1996, \aj, 111, 2265 
+
+\bibitem[Gallagher \& Hunter(1987)]{gh87} 
+Gallagher, J.~S., III, \& Hunter, D.~A.\ 1987, \aj, 94, 43 
+
+\bibitem[Gallagher et al.(2003)]{gmrgs03} 
+Gallagher, J.~S., Madsen, G.~J., Reynolds, R.~J., Grebel, E.~K., \& 
+    Smecker-Hane, T.~A.\ 2003, \apj, 588, 326 
+
+\bibitem[Gallagher et al.(1998)]{gtdschsm98}
+Gallagher, J. S., Tolstoy, E., Dohm-Palmer, R. C., Skillman, E. D., Cole, A., 
+Hoessel, J., Saha, A., \& Mateo, M. 1998, AJ, 115, 1869
+
+\bibitem[Gallagher (2005)]{ga05}
+Gallagher, J. S. in Starbursts: From 30 Doradus to Lyman Break Galaxies,
+eds. R. de Grijs \& R. Gonzalez Delgado (Dordrecht: Sringer), 11
+
+\bibitem[Gallart et al.(2001)]{gmgm01}
+Gallart, C., Martinez-Delgado, D., Gomez-Flechoso, M.A., Mateo, M. 2001, AJ, 121, 2572
+
+\bibitem[Gavazzi et al.(1998)]{g98} 
+Gavazzi, G., Catinella, B., Carrasco, L., Boselli, A., \& Contursi, A.\ 
+1998, \aj, 115, 1745 
+
+\bibitem[Gavazzi et al.(2002)]{g02} 
+Gavazzi, G., Boselli, A., Pedotti, P., Gallazzi, A., \& Carrasco, L.\ 
+2002, \aap, 396, 449 
+
+\bibitem[Geha et al.(2006)]{ggrc06} 
+Geha, M., Guhathakurta, P., Rich, R.~M., \& Cooper, M.~C.\ 2006, \aj, 131, 332 
+
+\bibitem[Giuricin et al.(2000)]{gmcp00}
+Giuricin, G., Marinoni, C., Ceriani, L., \& Pisani, A. 2000, ApJ, 543, 178
+
+\bibitem[Gnedin (2000)]{g00}
+Gnedin, N. 2000, ApJ, 535, L75
+
+\bibitem[Gomez et al.(2003)]{go03}
+Gomez, P.L., Nichol, R.C., Miller, C.J. et ali, 2003, \apj, 584, 210
+
+\bibitem[Grcevich \& Putman(2009)]{grp09} 
+Grvich, J., \& Putman, M.E.\ 2009, \apj, 696, 385
+
+\bibitem[Grebel et al.(2003)]{ggh03} 
+Grebel, E.~K., Gallagher, J.~S., III, \& Harbeck, D.\ 2003, \aj, 125, 1926
+
+\bibitem[Grossi et al.(2007)]{g07} 
+Grossi, M., Disney, M.~J., Pritzl, B.~J., Knezek, P.~M., Gallagher, J.~S., 
+    Minchin, R.~F., \& Freeman, K.~C.\ 2007, \mnras, 374, 107 
+
+\bibitem[Gunn \& Gott(1972)]{gg72} 
+Gunn, J.~E., \& Gott, J.~R.~I.\ 1972, \apj, 176, 1 
+
+\bibitem[Heisler et al.(1997)]{hhmh97}
+Heisler, C.A., Hill, T.L., McCall, M.L., Hunstead, R.W. 1997, \mnras , 285, 374
+
+\bibitem[Hirashita (2000)]{hi00}
+Hirashita, H. 2000, \pasj , 52, 107
+
+\bibitem[Hodge (1993)]{h93}
+Hodge, P. 1993, in Star Formation, Galaxies, and the Interstellar Medium,
+   eds.\ J.\ Franco, F.\ Ferrini, \& G.\ Tenorio-Tagle, Cambridge University 
+   Press, 294
+
+\bibitem[Holtzman et al.(2000)]{hsg00}
+Holtzman, J.~A., Smith, G.~H., \& Grillmair, C.\ 2000, \aj, 120, 3060 
+
+\bibitem[Hoversten \& Glazebrook(2008)]{hg08}
+Hoversten, E.A. \& Glazebrook, K. \ 2008, ApJ, 675, 163 
+
+\bibitem[Huchtmeier et al.(2000)]{hke00} 
+Huchtmeier, W.~K., Karachentsev, I.~D., Karachentseva, V.~E., \& 
+   Ehle, M.\ 2000, \aaps, 141, 469 
+
+\bibitem[Huchtmeier et al.(2005)]{hkp05} 
+Huchtmeier, W.~K., Krishna, G., \& Petrosian, A.\ 2005, \aap, 434, 887 
+
+\bibitem[Hunter et al.(1982)]{hgr82} 
+Hunter, D.~A., Gallagher, J.~S., \& Rautenkrantz, D.\ 1982, ApJS, 49, 53
+
+\bibitem[Hunter \& Gallagher(1986)]{hg86} 
+Hunter, D.~A., \& Gallagher, J.~S., III 1986, \pasp, 98, 5 
+
+\bibitem[Hunter et al.(1993)]{hhg93}  
+Hunter, D. A., Hawley, W. N., \& Gallagher, J. S. 1993, AJ, 106, 1797
+
+\bibitem[Hunter \& Elmegreen(2004)]{he04}  
+Hunter, D. A., \& Elmegreen, B.G. 2004, AJ, 128, 2170
+
+\bibitem[Iglesias-P{\'a}ramo \& V{\'{\i}}lchez(1999)]{iv99} 
+Iglesias-P{\'a}ramo, J., \& V{\'{\i}}lchez, J.~M.\ 1999, \apj, 518, 94 
+
+\bibitem[Irwin \& Tolstoy (2002)]{it02} 
+Irwin, M.~\& Tolstoy, E.\ 2002, \mnras, 336, 643 
+
+\bibitem[Irwin et al.(2007)]{ibe07} 
+Irwin, M. et al.\ 2007, ApJ, 656, L13 
+
+\bibitem[Jacobs et al.(2009)]{j09}
+Jacobs, B.A., Rizzi, L., Tully, R.B., Shaya, E.J., Makarov, D.I., Makarova, L. 2009, AJ, 138, 332
+ 
+\bibitem[Jerjen et al.(1998)]{jfb98}
+Jerjen, H., Freeman, K. C., \& Binggeli, B. 1998, AJ, 116, 2873
+
+\bibitem[Jerjen et al.(2000)]{j00b}
+Jerjen, H., Binggeli, B., Freeman, K.C. 2000, AJ, 119, 593 
+
+\bibitem[Jerjen et al.(2000)]{j00}
+Jerjen, H., Freeman, K. C., \& Binggeli, B. 2000, AJ, 119, 166 
+ 
+\bibitem[Jerjen \& Rejkuba (2000)]{jr01}
+Jerjen, H., \& Rejkuba, M. 2000, A\&A, 371, 487 
+
+\bibitem[Kaisin et al.(2007)]{kai07} 
+Kaisin, S., Kasparova, A., Knyazev, A., Karachentsev, I.\ 2007, AstL, 33, 283 
+
+\bibitem[Karachentsev \& Kaisin(2007)]{kk07} 
+Karachentsev, I.~D., \& Kaisin, S.~S.\ 2007, \aj, 133, 1883 
+
+\bibitem[Karachentsev et al.(2000)]{k00}
+Karachentsev, I.~D.~et al.\ 2000, \apj, 542, 128 
+
+\bibitem[Karachentsev et al.(2002)]{k02} 
+Karachentsev, I.~D., et al.\ 2002, \aap, 385, 21
+
+\bibitem[Karachentsev et al.(2003)]{k03} 
+Karachentsev, I.~D., et al.\ 2003, \aap, 404, 93K 
+
+\bibitem[Karachentsev et al.(2004)]{k04} 
+Karachentsev, I.~D., et al. \ 2004 \aj, 127, 2031
+
+\bibitem[Karachentsev(2005)]{k05} 
+Karachentsev, I.~D.\ 2005, \aj, 129, 178 
+
+\bibitem[Karachentsev et al.(2007)]{k07} 
+Karachentsev, I.~D., et al.\ 2007, \aj, 133, 504 
+
+\bibitem[Karachentseva \& Karachentsev (1998)]{kk98} 
+Karachentseva, V.E, \& Karachentsev, I.D.\ 1998, A\&AS, 127, 409 
+
+\bibitem[Karachentseva \& Karachentsev(2000)]{kk00} 
+Karachentseva, V.~E., \& Karachentsev, I.~D.\ 2000, \aaps, 146, 359 
+
+\bibitem[Kennicutt(1983)]{k83}
+Kennicutt, R.C. Jr. 1983, \apj , 272, 54
+
+\bibitem[Kennicutt(1984)]{k84}
+Kennicutt, R.C. Jr. 1984, \apj , 287, 116
+
+\bibitem[Kennicutt(1989)]{k89} 
+Kennicutt, R.~C., Jr.\ 1989, \apj, 344, 685 
+
+\bibitem[Kennicutt(1998)]{k98}
+Kennicutt, R.C. Jr. 1998, \apj , 498, 541
+
+\bibitem[Kennicutt \& Hodge(1986)]{kh86}
+Kennicutt, R.C. Jr., \& Hodge, P.W. 1986, \apj , 306, 130
+
+\bibitem[Kennicutt \& Skillman(2001)]{ks01}
+Kennicutt, R.C. Jr., \& Skillman, E.D. 2001, \aj , 121, 1461 
+
+\bibitem[Kennicutt et al.(1994)]{ktc94}
+Kennicutt, R.C. Jr., Tamblyn, P., \& Congdon, C.W. 1994, \apj , 435, 22
+
+\bibitem[Kennicutt et al.(2008)]{kl08}
+Kennicutt, R.C. Jr., Lee, J., Funes, J., Sakai, S. \& Akiyama, S. 2008, ApJS, 178, 247
+
+\bibitem[Kewley et al.(2001)]{khdl01} 
+Kewley, L.~J., Heisler, C.~A., Dopita, M.~A., \& Lumsden, S.\ 2001, \apjs, 132, 37 
+
+\bibitem[Klypin et al.(1999)]{kkvp99}
+Klypin, A., Kravtsov, A. V., Valenzuela, O,, \& Prada, F. 1999, ApJ, 522, 82
+
+\bibitem[Knezek et al.(1999)]{ksg99}
+Knezek, P. M., Sembach, K. R., \& Gallagher, J. S., III 1999, ApJ, 514, 119
+
+\bibitem[Koopmann \& Kenney (2006)]{kk06}
+Koopmann, R. \& Kenney, J. 2006, ApJS, 162, 97
+
+\bibitem[Koribalski et al.(2004)]{ko04}
+Koribalski et al. (2004),  \aj, 128, 16
+
+\bibitem[Larson et al.(1980)]{ltc80} 
+Larson, R.~B., Tinsley, B.~M., \& Caldwell, C.~N.\ 1980, \apj, 237, 692 
+
+\bibitem[Lauberts(1984)]{l84} 
+Lauberts, A.\ 1984, \aaps, 58, 249 
+
+\bibitem[Lauberts \& Valentijn(1989)]{lv89} 
+Lauberts, A., \& Valentijn, E.~A.\ 1989,
+The Surface Photometry Catalogue of the ESO‐Uppsala Galaxies,
+Garching: European Southern Observatory  
+
+\bibitem[Lee et al.(2006)]{lea06} 
+Lee, H., Skillman, E.~D., Cannon, J.~M., Jackson, D.~C., Gehrz, R.~D., 
+Polomski, E.~F., \& Woodward, C.~E.\ 2006, \apj, 647, 970 
+
+\bibitem[Lee (2006)]{lee06} 
+Lee, J.C.\ 2006, PhD Thesis, University of Arizona
+
+\bibitem[Lee (2009)]{lee09} 
+Lee, J.C., Kennicutt, R.C., Funes, J.G., Sakai, S., Akiyama, S.\ 2009, ApJ, 692, 1305
+
+\bibitem[Lianou et al.(2013)]{li13}
+Lianou, S., Grebel, E.K., Da COsta, G.S., Rejkuba, M., Jerjen, H., Koch, A.\ 2013, A\&A, 550, 7
+
+\bibitem[Lisker et al.(2006)]{lgwg06} 
+Lisker, T., Glatt, K., Westera, P., \& Grebel, E.~K.\ 2006, \aj, 132, 2432
+
+\bibitem[Lo et al.(1993)]{lsy93} 
+Lo, K.~Y., Sargent, W.~L.~W., \& Young, K.\ 1993, \aj, 106, 507 
+
+\bibitem[Longmore et al.(1982)]{l82}
+Longmore, A.J., Hawarden, T.G., Goss, W.M., Mebold, U., Webster, B.L.\ 1982, \mnras, 200, 325
+
+\bibitem[Makarova et al.(2004)]{ma04}
+L. N. Makarova, I. D. Karachentsev, E. K. Grebel, D. Harbeck, G. G. Korotkova,\&
+D. Geisler \ 2005, A\&A, 433, 751
+
+\bibitem[Marlowe et al.(1997)]{mmhs97}
+Marlowe, A. T., Meurer, G. R., Heckman, T. M., \& Schommer, R. 1997, 
+\apjs , 112, 285
+
+\bibitem[Mashchenko et al.(2004)]{mcb04} 
+Mashchenko, S., Carignan, C., \& Bouchard, A.\ 2004, \mnras, 352, 168 
+
+\bibitem[Mateo(1998)]{m98}
+Mateo, M. 1998, ARA\&A, 36, 435
+
+\bibitem[Mayer et al.(2001a)]{mgc01a}
+Mayer, L., Governato, F., Colpi, M., Moore, B., Quinn, T., Wadsley, J., 
+Stadel, J., \& Lake, G. 2001a, ApJ, 547, L123
+
+\bibitem[Mayer et al.(2001b)]{mgcmqwsl01b}
+Mayer, L., Governato, F., Colpi, M., Moore, B., Quinn, T., Wadsley, J., 
+Stadel, J., \& Lake, G. 2001b, \apj, 559, 754 
+
+\bibitem[Mayer et al.(2006)]{mmwsm06} 
+Mayer, L., Mastropietro, C., Wadsley, J., Stadel, J., \& 
+   Moore, B.\ 2006, \mnras, 369, 1021
+
+\bibitem[Mayer et al.(2007)]{mkmw07} 
+Mayer, L., Kazantzidis, S., Mastropietro, C., \& Wadsley, J.\ 2007, \nat, 445, 738 
+
+\bibitem[McConnachie (2012)]{mcc12} 
+McConnachie, A.W.\ 2012, AJ, 144, 4 
+
+\bibitem[McQuinn et al.(2010)]{mcq10} 
+McQuinn, K.B.W., Skillman, E.D., Cannon, J.M. et al. 2010, ApJ, 721, 297 
+
+\bibitem[McQuinn et al.(2015)]{mcq15} 
+McQuinn, K., Cannon, J.M., Dolphin, A.E., Skillman, E.D. et al. 2015, ApJ, 802, 66 
+
+\bibitem[Meurer et al.(2006)]{meu06} 
+Meurer, G., Hanish, D., Ferguson, H. et al \ 2006, ApJS, 165, 307 
+
+\bibitem[Miller(1994)]{m94}
+Miller, B. W. 1994, Ph.D.\ Thesis, University of Washington
+
+\bibitem[Miller(1996)]{m96}
+Miller, B. W. 1996, AJ, 112, 991 
+
+\bibitem[Miller et al.(2001)]{mdlkh01}
+Miller, B.~W., Dolphin, A.~E., Lee, M.~G., Kim, S.~C., \& Hodge, P. 2001
+\apj , 562, 713
+
+\bibitem[Miller \& Hodge(1994)]{mh94}
+Miller, B.W., \& Hodge, P. 1994, \apj , 427, 656
+
+\bibitem[Minchin et al.(2003)]{m03} 
+Minchin, R.~F., et al.\ 2003, \mnras, 346, 787 
+
+\bibitem[Moore et al.(1996)]{mkldo96} 
+Moore, B., Katz, N., Lake, G., Dressler, A., \& Oemler, A.\ 1996, \nat, 379, 613 
+
+\bibitem[Moore et al.(1999)]{mgglqst99}
+Moore, B., Ghigna, S., Governato, F., Lake, G., Quinn, T., Stadel, J., \&
+Tozzi, P. 1999, ApJ, 524, L19
+
+\bibitem[Nicastro et al.(2002)]{ni02}
+Nicastro, F. et al. 2002, ApJ, 573, 157
+
+\bibitem[Normandeau(1996)]{ntd96}
+Normandeau, M., Taylor, A.R., \& Dewdney, P.E. 1996, Nature, 380, 687
+
+\bibitem[Oosterloo et al.(1996)]{ods96}
+Oosterloo, T., Da Costa, G.S., \& Staveley-Smith, L. 1996, AJ, 112, 1969
+
+\bibitem[Peebles(1989)]{p89} 
+Peebles, P.~J.~E.\ 1989, \apjl, 344, L53 
+
+\bibitem[Perez-Gonzalez et al.(2003)]{pg03} 
+Perez-Gonzalez, P., Zamorano, J., Gallego, J. et al.\ 2003, \apj, 591, 827 
+
+\bibitem[Phillips et al.(1986)]{ph86} 
+Phillips, M.M., Jenkins, C.R., Dopita, M.A., Sadler, E.M. \& Binette, L.\ 1986, AJ, 91, 1062
+
+\bibitem[Press et al.(1992)]{ptvf92}
+Press, W. H., Teukolsky, S. A., Vetterling, W. T., \& Flannery, B. P. 1992,
+Numerical Recipes in Fortran, Cambridge University Press
+
+\bibitem[Pritzl et al.(2003)]{pr03}
+Pritzl, B. et al. 2003, \apj, 596, 47
+
+\bibitem[Prugniel et al.(1993)]{pbka93} 
+Prugniel, P., Bica, E., Klotz, A., \& Alloin, D.\ 1993, \aaps, 98, 229 
+
+\bibitem[Prugniel \& Heraudeau(1998)]{ph98} 
+Prugniel, P., \& Heraudeau, P.\ 1998, \aaps, 128, 299 
+
+\bibitem[Puche \& Carignan(1988)]{pc88}
+Puche, D., \& Carignan, C. 1988, AJ, 95, 1025
+
+\bibitem[Quinn et al.(1996)]{qke96}
+Quinn, T., Katz, N., \& Efstathiou, G.\ 1996, \mnras, 278, L49 
+
+\bibitem[Richer et al.(2001)]{rbbmlkgkrr01}
+Richer, M.~G.~et al.\ 2001, \aap, 370, 34 
+
+\bibitem[Roberts(1963)]{r63}
+Roberts, M.S. 1963, ARA\&A, 1, 149
+
+\bibitem[Rumstay \& Kaufman(1983)]{rk83} 
+Rumstay, K.~S., \& Kaufman, M.\ 1983, \apj, 274, 611 
+
+\bibitem[Sadler(2001)]{s01} 
+Sadler, E.~M.\ 2001, Gas and Galaxy Evolution, 
+Eds. J. E. Hibbard, M. Rupen, and J. H. van Gorkom,
+ASP Conference Proceedings, 240, 445 
+
+\bibitem[Sandage \& Binggeli(1984)]{sb84} 
+Sandage, A., \& Binggeli, B.\ 1984, \aj, 89, 919
+
+\bibitem[Sandage \& Hoffman(1991)]{sh91}
+Sandage, A., \& Hoffman, G.L. 1991, ApJ, 379, 45
+
+\bibitem[Scalo(1986)]{s86}
+Scalo, J.M. 1986, Fund.\ Cos.\ Phys., 11, 1
+
+\bibitem[Schaerer et al.(1999)]{scp99} 
+Schaerer, D., Contini, T., \& Pindao, M.\ 1999, \aaps, 136, 35 
+
+\bibitem[Schlegel et al.(1998)]{sfd98}
+Schlegel, D.J., Finkbeiner, D.P., \& Davis, M. 1998, \apj , 500, 525
+
+\bibitem[Schaye(2004)]{s04} 
+Schaye, J.\ 2004, \apj, 609, 667 
+
+\bibitem[Sembach et al.(2003)]{sem03}
+Sembach, K.R., et al. 2003, ApJS, 146, 165
+
+\bibitem[Skillman(1996)]{s96}
+Skillman, E.~D.\ 1996, ASP Conf.~Ser.~106: 
+The Minnesota Lectures on Extragalactic Neutral Hydrogen, 208 
+
+\bibitem[Skillman et al.(1997)]{sbk97}
+Skillman, E. D., Bomans, D. J., \& Kobulnicky, H. A.  
+1997, ApJ, 474, 205
+
+\bibitem[Skillman et al.(2003a)]{scm03a} 
+Skillman, E.~D., C{\^o}t{\'e}, S., \& Miller, B.~W.\ 2003, \aj, 125, 593
+
+\bibitem[Skillman et al.(2003b)]{scm03b} 
+Skillman, E.~D., C{\^o}t{\'e}, S., \& Miller, B.~W.\ 2003, \aj, 125, 610 
+
+\bibitem[Skillman et al.(1988)]{s88} 
+Skillman, E.~D., Terlevich, R., Teuben, P.~J., \& van Woerden, H.\ 1988, \aap, 198, 33 
+
+\bibitem[St-Germain et al.(1999)]{scco99}
+St-Germain, J., Carignan, C., C\^ot\'e, S., \& Oosterloo, T. 1999, AJ, 118, 1235
+
+\bibitem[Stone and Baldwin (1983)]{sb83}
+Stone, R.P.S., Baldwin,J.A. \ 1983, \mnras, 204, 347
+
+\bibitem[Strobel et al.(1991)]{shk91} 
+Strobel, N.~V., Hodge, P., \& Kennicutt, R.~C., Jr.\ 1991, \apj, 383, 148 
+
+\bibitem[Takei et al.(2007)]{t07} 
+Takei, Y., Henry, P., Finoguenov, A. et al.\ 2007, ApJ, 655, 831 
+
+\bibitem[Taylor et al.(1994)]{t94} 
+Taylor, C.~L., Brinks, E., Pogge, R.~W., \& Skillman, E.~D.\ 1994, \aj, 107, 971 
+
+\bibitem[Thomson(1992)]{t92} 
+Thomson, R.~C.\ 1992, \mnras, 257, 689 
+
+\bibitem[Toomre(1964)]{t64} 
+Toomre, A.\ 1964, \apj, 139, 1217 
+
+\bibitem[Tosi et al.(1991)]{t91} 
+Tosi, M., Greggio, L., Marconi, G., Focardi, P.\ 1991, \aj, 102, 951 
+
+\bibitem[Tremonti et al.(2007)]{tre07} 
+Tremonti, C.A., Lee, J.C., van Zee, L. et al. \ 2007, AAS, 211, 9503
+
+\bibitem[Tully \& Fisher(1987)]{tf87}
+Tully, R.B., \& Fisher, J.R. 1987, Nearby Galaxies Atlas, Cambridge
+University Press
+ 
+\bibitem[van den Bergh(1959)]{vdb59}
+van den Bergh, S. 1959, Publications of the Dunlap Observatory, v.2, no.5, 147
+
+\bibitem[van den Bergh(1994a)]{vdb94a}
+van den Bergh, S. 1994a, AJ, 107, 1328
+
+\bibitem[van den Bergh(1994b)]{vdb94b}
+van den Bergh, S. 1994b, ApJ, 428, 617
+
+\bibitem[van den Bergh(2000)]{vdb00}
+van den Bergh, S. 2000, PASP, 112, 529
+
+\bibitem[van Zee(2000)]{vz00}
+van Zee, L. 2000, \aj , 119, 2757
+
+\bibitem[van Zee(2001)]{vz01}
+van Zee, L. 2001, \aj , 121, 2003
+
+\bibitem[van Zee et al.(1997a)]{vz97}
+van Zee, L., Haynes, M. P., Salzer, J. J., Boriels, A. 1997, AJ, 113, 1618
+
+\bibitem[van Zee et al.(1997b)]{vhs97}
+van Zee, L., Haynes, M. P., \& Salzer, J. J. 1997, AJ, 114, 2479
+
+\bibitem[Vorontsov-Vel'Yaminov \& Ivani{\v s}evi{\'c}(1974)]{vvi74} 
+Vorontsov-Vel'Yaminov, B.~A., \& 
+Ivani{\v s}evi{\'c}, G.\ 1974, Soviet Astronomy, 18, 174 
+
+\bibitem[Weisz et al.(2011)]{w11}
+Weisz, D.R.,Dolphin, A.E., Dalcanton, J.J., Skillman, E.D. et al. 2011, ApJ, 743, 8
+
+\bibitem[Whiting(1999)]{w99}
+Whiting, A. B. 1999, AJ, 117, 202
+
+\bibitem[Young \& Lo(1997)]{yl97}
+Young, L.M., \& Lo, K.Y. 1997, ApJ, 490, 710
+ 
+\bibitem[Youngblood \& Hunter(1999)]{yh99}
+Youngblood, A.J., \& Hunter, D.A. 1999, \apj , 519, 55
+
+\end{thebibliography}
+
+\clearpage
+
+%% Use the figure environment and \plotone or \plottwo to include
+%% figures and captions in your electronic submission.
+%% To embed the sample graphics in
+%% the file, uncomment the \plotone, \plottwo, and
+%% \includegraphics commands
+%%
+%% If you need a layout that cannot be achieved with \plotone or
+%% \plottwo, you can invoke the graphicx package directly with the
+%% \includegraphics command or use \plotfiddle. For more information,
+%% please see the tutorial on "Using Electronic Art with AASTeX" in the
+%% documentation section at the AASTeX Web site,
+%% http://www.journals.uchicago.edu/AAS/AASTeX.
+%%
+%% The examples below also include sample markup for submission of
+%% supplemental electronic materials. As always, be sure to check
+%% the instructions to authors for the journal you are submitting to
+%% for specific submissions guidelines as they vary from
+%% journal to journal.
+
+%% This example uses \plotone to include an EPS file scaled to
+%% 80% of its natural size with \epsscale. Its caption
+%% has been written to indicate that additional figure parts will be
+%% available in the electronic journal.
+
+%% Here we use \plottwo to present two versions of the same figure,
+%% one in black and white for print the other in RGB color
+%% for online presentation. Note that the caption indicates
+%% that a color version of the figure will be available online.
+%%
+%% This figure uses \includegraphics to scale and rotate the still frame
+%% for an mpeg animation.
+
+%%%%%%%%
+%%%% Table 1  --  do not use \tablewidth{0pt}
+
+\begin{deluxetable}{lcccccc}
+\tablenum{1}
+%\tablewidth{0pt}
+\tablecaption{Dwarf Galaxies (transition dwarfs candidates) observed in H$\alpha$\label{tbl1}}
+\tablehead{
+\colhead{Galaxy Name} &  
+\colhead{R.A. (J2000)} & 
+\colhead{Dec.\ (J2000)} & 
+\colhead{V$_{\odot}$} & 
+\colhead{D (Mpc)} & 
+\colhead{M(B)} & 
+\colhead{Ref.}
+}
+\startdata
+&&Centaurus A&&&&\\
+\\
+HIPASS~J1321-31 &13:21:08.2&$-$31:31:45.0 &492 &5.2 $\pm 0.12 $ &$-$11.5 &5,10 \\
+HIPASS~J1337-39 &13:37:25.3 &$-$39:53:48.49&492 &4.80$\pm 0.2 $ &$-$13.89 &4,6,11  \\
+ESO~384-G016 &13:57:01.4 &$-$35:19:59.0 &561 &4.43$\pm 0.03$ &$-$15.09 &2,5,12 \\
+\\
+&&Sculptor&&&&\\
+\\
+NGC~59 &00:15:25.10 &$-$21:26:40&362&5.3$\pm 1.1$ &$-$15.3&1,9 \\
+ESO~410-G005 &00:15:31.56 &$-$32:10:47.8&160&2.01$\pm 0.09$ &$-$11.67 &2,3,13 \\
+ESO~540-G030 &00:49:20.96 &$-$18:04:31.5&224&3.33 $\pm 0.03$&$-$11.17 &1,8,13\\
+ESO~540-G032 &00:50:24.32 &$-$19:54:24.2&228&3.54$\pm 0.08$&$-$10.46 &1,8,13\\
+ESO~407-G018 &23:26:27.50 &$-$32:23:20.0&62&2.18$\pm 0.09 $ &$-$12.6 &7,13 \\
+\enddata
+\tablecomments{Heliocentric velocities and magnitudes are from; (1)\cite{j00b}, (2)\cite{bjdo05}, (3)\cite{rc3}, (4)\cite{doy05},
+(5)\cite{j00}, (6)\cite{ko04}, (7)\cite{ma04} and (8)\cite{bou09}..
+Distances are from: (9)\cite{kl08}; (10)\cite{pr03}; (11)\cite{g07}; (12)\cite{j09}; (13)\cite{dal09}.}
+\end{deluxetable}
+
+\clearpage
+
+%%%%%%%%
+%%%% Table 2  --  do not use \tablewidth{0pt} -- use \LongTables for this one
+
+\LongTables
+\begin{deluxetable}{lcccccc}
+\tablenum{2}
+\pagestyle{empty}
+\tablecaption{Star Formation Properties of observed dwarf galaxies\label{tbl2}}
+%\tablewidth{0pt}
+\tablehead{
+\colhead{Galaxy} &
+\colhead{SFR} & 
+\colhead{SFR/L(B)} & 
+\colhead{M(HI)} & 
+\colhead{M(HI)/L(B)} &
+\colhead{Ref.} 
+\\
+\colhead{} &  
+\colhead{10$^{-5}$M$_{\odot}$ yr$^{-1}$} & 
+\colhead{10$^{-13}$M$_{\odot}$ yr$^{-1}$ L$_{\odot}^{-1}$} &
+\colhead{10$^6$ M$_{\odot}$}  & 
+\colhead{M$_{\odot}$/L$_{\odot}$} &
+\colhead{} 
+}
+\startdata
+
+
+&&Centaurus A Group&&&\\
+\\
+HIPASS~J1321-31 & $<0.53$ & $<8.5$ & 30.3 & 4.89 & 1 \\
+HIPASS~J1337-39 & $117\pm 30$ & 209 & 34.3 & 0.61 & 2 \\
+ESO~384-G16 & $7.3\pm 2.4$ & 4.3 & 7.1  & 0.04 & 3 \\
+\\
+&&Sculptor Group&&&\\
+\\
+NGC~59 & $1520 \pm 303$ & 740 & 18.0 & 0.09 & 3 \\
+ESO~410-G05 & $<0.13$ & $<1.7$ & 0.8 & 0.11 & 4 \\
+ESO~540-G30 & $<0.20$ & $<4.3$ & 0.86 & 0.19 & 4 \\
+ESO~540-G32 & $<0.22$ & $<9.2$ & 1.02 & 0.43 & 4 \\
+ESO~407-G18 & $2.8\pm 0.6$ & 16.4 & 16.8 & 0.99 & 5 \\
+\enddata
+\tablecomments{HI Mass M(HI) are from: (1)\cite{be08}, (2)\cite{doy05}, (3)\cite{b06}, (4)\cite{bjdo05}, (5)\cite{l82}
+}
+\end{deluxetable}
+
+\clearpage
+
+
+%%%%%%%%
+%%%% Figures
+%% Figure 1
+
+\begin{figure}
+\epsscale{0.75}
+\plottwo{Figure1/HIPASS_J1337-39_Cont.eps}{Figure1/HIPASS_J1337-39.eps}
+\\
+\plottwo{Figure1/ESO384-G016_Cont.eps}{Figure1/ESO384-G016.eps}
+\\
+\plottwo{Figure1/ESO407-G018_Cont.eps}{Figure1/ESO407-G018.eps}
+\\
+\plottwo{Figure1/NGC59_Cont.eps}{Figure1/NGC59.eps}
+\caption{Images of four detected Centaurus A Group and Sculptor dwarf irregular galaxies. The H$_\alpha$-band images of the galaxies are shown 
+in the left panels and the continuum subtracted H$_\alpha$ images are shown in the right panels. The field of view is 2\arcmin $\times$ 2\arcmin.\label{fig1}}
+\end{figure}
+
+\clearpage
+
+
+%% If you are not including electonic art with your submission, you may
+%% mark up your captions using the \figcaption command. See the
+%% User Guide for details.
+%%
+%% No more than seven \figcaption commands are allowed per page,
+%% so if you have more than seven captions, insert a \clearpage
+%% after every seventh one.
+
+%% Tables should be submitted one per page, so put a \clearpage before
+%% each one.
+
+%% Two options are available to the author for producing tables:  the
+%% deluxetable environment provided by the AASTeX package or the LaTeX
+%% table environment.  Use of deluxetable is preferred.
+%%
+
+%% Three table samples follow, two marked up in the deluxetable environment,
+%% one marked up as a LaTeX table.
+
+%% In this first example, note that the \tabletypesize{}
+%% command has been used to reduce the font size of the table.
+%% We also use the \rotate command to rotate the table to
+%% landscape orientation since it is very wide even at the
+%% reduced font size.
+%%
+%% Note also that the \label command needs to be placed
+%% inside the \tablecaption.
+
+%% This table also includes a table comment indicating that the full
+%% version will be available in machine-readable format in the electronic
+%% edition.
+
+
+%% The following command ends your manuscript. LaTeX will ignore any text
+%% that appears after it.
+
+\end{document}
+
+%%
