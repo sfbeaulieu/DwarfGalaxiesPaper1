@@ -1,11 +1,10 @@
-   0.061 !SMC log(SFR/L); MHI/L; Distance to nearest gal(MW,M31) in Mpc Refs: SFR from Kennicut 08 mostly, L=LB; dist from McConnachie 2012 Tab2 
- -9.98 0.00119 0.252 !IC 10  
- -99 0.789 0.269 ! LGS 3 :  -99 for SFR not-detected          	   
- -10.40 0.279 0.52 !IC 1613         
- -99  0  0.415 !Phoenix         
+ -9.98 0.00119 0.252 !IC 10:   log(SFR/L); MHI/L; Distance to nearest gal(MW,M31) in Mpc;  
+ -99 0.789 0.269 ! LGS 3 :     -99 for SFR not-detected          	   
+ -10.40 0.279 0.52 !IC 1613 :   Refs: SFR from Kennicut 08 mostly, L=LB; dist from McConnachie 2012 Tab2         
+ -99  0  0.415 !Phoenix        FOr notes on each gal see vol28 p17
  -10.21 0.857 0.452 !NGC 6822         
  -11.63 0.357 0.474 !Pegasus dIrr       
- 0.422 !Leo T             
+ -99 3.29 0.422 !Leo T             
  -10.52 1.01 0.836 !WLM             
  -10.90 0.879 0.803 !Leo A         
  -11.94 0.706 1.066 !Aquarius        

@@ -1,12 +1,12 @@
 
-Figure SFR/L versus distance
+Figure SFR/L versus distance and Figure MHI/L versus distance
 
 
-Local Group:
+LOCAL GROUP:
 -took list of dIs& dTrans from McConnachie 2012 table that is available online at:
 https://www.astrosci.ca/users/alan/Nearby_Dwarfs_Database.html
 version last updated May 30 2013
-Distances to MW or M31 in the same paper, Lv also.
+Distances to MW or M31 in the same paper, Lv also. Found LB and MHI through NED. SFR mostly from Kennicut.
 -> orig-McConn.txt
 
 kept only the dIrr and dtrans (following Sylvie's updated table_localgroup.tex 
@@ -15,6 +15,11 @@ Note: comprend toutes le dI dTrans meme si leur distance n'est pas exacte, eg: L
 Note: CanisMajor type="Other". =MW overdensity (Carraro et al 2008). Excluded from list of dI/dTrans
 Note: Triangulum= is it faint enough MB to be a dwarf? =This is M33.Abs Mag=-19.41 (RC3). -> excluded from dI/dTrans
 Note: Leo P: is a dTrans according to several papers (it has HI). -> keep it in the list.
+Note: SMC too bright to be dwarf MB=-16.36
+Note: Segue 1 is a dsph.excluded from list.
 
-
+SCULPTOR GROUP:
+warning: distances are distances from us, NOT distances to closest spiral as for LGdidt.txt
+Took distances from table-sculptor.pdf which has the updated distances (unlike dwarf-galaxies-masterlistv2.dat). Kept only dIs and dTrans.
+SFR et MHI: from paper Table2 for the newly observed dwarfs.
 
